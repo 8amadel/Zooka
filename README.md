@@ -38,7 +38,7 @@ Tested and verified to work on Google Cloud Platform (GCP) in region us-central1
 
 1- Clone the Repository
 
-git clone https://github.com/yourusername/zooka.git
+git clone https://github.com/8amadel/zooka.git
 
 2- Set your environment variables in zooka/config.env
 
