@@ -48,9 +48,11 @@ gcloud auth application-default login
 
 Accept all actions by always answering with "y", follow the prompt by opening the provided link in a browswer, tick all the checkboxes and copy the code back to the terminal.
 
-4- Run the single deployment command
+4- Make the scripts executable and run the single deployment command
 
 cd zooka/
+
+find . -type f -name "*.sh" -exec chmod u+x {} +
 
 nohup ./fullDeploy.sh &
 
