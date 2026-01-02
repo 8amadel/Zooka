@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="auth-wrapper">
+    <div class="auth-box">
+        <h2>Welcome Back</h2>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="alert">{{ messages[0] }}</div>
+            {% endif %}
+        {% endwith %}
+
+        <div class="tabs">
+            <button onclick="showForm('login')" class="active" id="tab-login">Login</button>
+            <button onclick="showForm('signup')" id="tab-signup">Sign Up</button>
+        </div>
+
+        <form action="{{ url_for('auth') }}" method="POST" id="login-form">
+            <input type="hidden" name="action" value="login">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit" class="btn-primary full-width">Login</button>
+        </form>
+
+        <form action="{{ url_for('auth') }}" method="POST" id="signup-form" style="display:none;">
+            <input type="hidden" name="action" value="signup">
+            <input type="text" name="username" placeholder="Choose a Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Verify Password" required>
+            <button type="submit" class="btn-primary full-width">Create Account</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function showForm(formName) {
+        document.getElementById('login-form').style.display = formName === 'login' ? 'block' : 'none';
+        document.getElementById('signup-form').style.display = formName === 'signup' ? 'block' : 'none';
+        document.getElementById('tab-login').classList.toggle('active', formName === 'login');
+        document.getElementById('tab-signup').classList.toggle('active', formName === 'signup');
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,3908 @@
+[
+  {
+    "disease_name": "Essential (Primary) Hypertension",
+    "description": "High blood pressure with no identifiable secondary cause (ICD-10: I10). It accounts for 90-95% of all hypertension cases and causes progressive strain on the heart and arteries.",
+    "symptoms": [
+      {
+        "symptom": "Asymptomatic",
+        "confidence_indicator": "High",
+        "details": "Most patients have no specific symptoms until complications arise ('The Silent Killer')."
+      },
+      {
+        "symptom": "Occipital Headache",
+        "confidence_indicator": "Low",
+        "details": "A dull headache in the back of the head, typically upon waking, occurring in severe cases."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Ambulatory BP Monitoring",
+        "is_gold_standard": true,
+        "purpose": "24-hour monitoring to rule out 'white coat hypertension' and confirm persistent elevation."
+      },
+      {
+        "procedure": "Fundoscopy",
+        "is_gold_standard": false,
+        "purpose": "Examination of the eyes to check for hypertensive retinopathy (blood vessel damage)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Thiazide Diuretics",
+        "confidence_efficacy": "High",
+        "details": "First-line medication to help the kidneys remove excess sodium and water."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "ACE Inhibitors",
+        "confidence_efficacy": "High",
+        "details": "Relaxes blood vessels by blocking the formation of angiotensin II."
+      }
+    ]
+  },
+  {
+    "disease_name": "Unstable Angina",
+    "description": "Chest pain that occurs at rest or with minimal exertion (ICD-10: I20.0). Unlike stable angina, it is unpredictable and signals a high risk of an impending heart attack.",
+    "symptoms": [
+      {
+        "symptom": "Resting Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Pain or pressure that occurs without physical exertion and may last longer than 10-20 minutes."
+      },
+      {
+        "symptom": "Poor Response to Nitroglycerin",
+        "confidence_indicator": "Medium",
+        "details": "Symptoms may not resolve completely with standard sublingual medication."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Coronary Angiography",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the severity of artery narrowing to determine if stenting is needed."
+      },
+      {
+        "procedure": "ECG (Electrocardiogram)",
+        "is_gold_standard": false,
+        "purpose": "May show ST-segment depression or T-wave inversion, but no ST elevation."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "PCI (Angioplasty/Stent)",
+        "confidence_efficacy": "High",
+        "details": "Mechanical widening of the narrowed artery to restore blood flow."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Dual Antiplatelet Therapy (DAPT)",
+        "confidence_efficacy": "High",
+        "details": "Aspirin plus a P2Y12 inhibitor (e.g., Clopidogrel) to prevent clot formation."
+      }
+    ]
+  },
+  {
+    "disease_name": "NSTEMI (Non-ST Elevation Myocardial Infarction)",
+    "description": "A type of heart attack where the coronary artery is partially blocked, causing heart muscle damage without the classic ST-segment elevation on ECG (ICD-10: I21.4).",
+    "symptoms": [
+      {
+        "symptom": "Retrosternal Pressure",
+        "confidence_indicator": "High",
+        "details": "Crushing sensation behind the breastbone."
+      },
+      {
+        "symptom": "Diaphoresis",
+        "confidence_indicator": "High",
+        "details": "Sudden, heavy sweating ('cold sweat')."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "High-Sensitivity Troponin",
+        "is_gold_standard": true,
+        "purpose": "Detects elevated cardiac enzymes indicating heart muscle necrosis."
+      },
+      {
+        "procedure": "ECG",
+        "is_gold_standard": false,
+        "purpose": "Shows ST depression or T-wave inversion (distinguishing it from STEMI)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Anticoagulation (Heparin)",
+        "confidence_efficacy": "High",
+        "details": "Prevents the clot from growing while awaiting angiography."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Early Invasive Strategy (Cath Lab)",
+        "confidence_efficacy": "High",
+        "details": "Angiography within 24-48 hours to identify and treat the blockage."
+      }
+    ]
+  },
+  {
+    "disease_name": "Pulmonary Embolism (PE)",
+    "description": "A blockage in one of the pulmonary arteries in the lungs, usually caused by blood clots that travel from the legs (DVT) (ICD-10: I26). It puts immense strain on the right side of the heart.",
+    "symptoms": [
+      {
+        "symptom": "Sudden Dyspnea",
+        "confidence_indicator": "High",
+        "details": "Rapid onset of shortness of breath without prior exertion."
+      },
+      {
+        "symptom": "Pleuritic Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Sharp chest pain that worsens when breathing in deeply."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "CT Pulmonary Angiography (CTPA)",
+        "is_gold_standard": true,
+        "purpose": "Uses contrast dye to visualize the filling defect (clot) in the lung arteries."
+      },
+      {
+        "procedure": "D-Dimer Blood Test",
+        "is_gold_standard": false,
+        "purpose": "Measures a substance released when a clot breaks up; high negative predictive value."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Anticoagulants (Heparin/DOACs)",
+        "confidence_efficacy": "High",
+        "details": "Blood thinners that prevent the clot from getting bigger and prevent new clots."
+      },
+      {
+        "treatment_type": "Emergency Treatment",
+        "treatment": "Thrombolysis (tPA)",
+        "confidence_efficacy": "High",
+        "details": "Used only in massive PE with shock to dissolve the clot rapidly."
+      }
+    ]
+  },
+  {
+    "disease_name": "Mitral Valve Stenosis",
+    "description": "Narrowing of the mitral valve opening that blocks blood flow from the left atrium to the left ventricle (ICD-10: I05.0). The most common cause is Rheumatic Fever.",
+    "symptoms": [
+      {
+        "symptom": "Dyspnea on Exertion",
+        "confidence_indicator": "High",
+        "details": "Breathlessness due to fluid backing up into the lungs."
+      },
+      {
+        "symptom": "Hemoptysis",
+        "confidence_indicator": "Medium",
+        "details": "Coughing up blood due to ruptured bronchial veins from high pressure."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Transthoracic Echocardiogram (TTE)",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the valve 'hockey stick' appearance and measures the gradient/area."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Percutaneous Mitral Balloon Valvuloplasty",
+        "confidence_efficacy": "High",
+        "details": "A balloon catheter is used to force the stiff valve open."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Diuretics",
+        "confidence_efficacy": "Medium",
+        "details": "Reduces lung congestion and swelling."
+      }
+    ]
+  },
+  {
+    "disease_name": "Dilated Cardiomyopathy",
+    "description": "A condition where the heart's ability to pump blood is decreased because the left ventricle is enlarged and weakened (ICD-10: I42.0).",
+    "symptoms": [
+      {
+        "symptom": "Orthopnea",
+        "confidence_indicator": "High",
+        "details": "Shortness of breath when lying flat."
+      },
+      {
+        "symptom": "Peripheral Edema",
+        "confidence_indicator": "High",
+        "details": "Swelling in legs and ankles."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows dilated chambers and reduced systolic function (low EF)."
+      },
+      {
+        "procedure": "Cardiac MRI",
+        "is_gold_standard": false,
+        "purpose": "Can identify tissue scarring (fibrosis) and specific causes like sarcoidosis."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Beta Blockers + ACE Inhibitors",
+        "confidence_efficacy": "High",
+        "details": "Pillar therapy to reduce cardiac workload and prevent remodeling."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Heart Transplantation",
+        "confidence_efficacy": "High",
+        "details": "The final option for end-stage failure refractory to medication."
+      }
+    ]
+  },
+  {
+    "disease_name": "Hypertrophic Cardiomyopathy (HCM)",
+    "description": "A genetic disease where the heart muscle (myocardium) becomes abnormally thick (hypertrophied), making it harder for the heart to pump blood (ICD-10: I42.1).",
+    "symptoms": [
+      {
+        "symptom": "Syncope during Exercise",
+        "confidence_indicator": "High",
+        "details": "Fainting during physical activity due to outflow obstruction."
+      },
+      {
+        "symptom": "Palpitations",
+        "confidence_indicator": "Medium",
+        "details": "Sensation of rapid heartbeats often caused by associated arrhythmias."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Measures wall thickness (usually septum > 15mm) and outflow gradient."
+      },
+      {
+        "procedure": "Genetic Testing",
+        "is_gold_standard": false,
+        "purpose": "Identifies mutations in sarcomere genes (e.g., MYH7, MYBPC3)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Beta Blockers",
+        "confidence_efficacy": "High",
+        "details": "Relaxes the heart muscle, allowing better filling and reducing obstruction."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Septal Myectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the thickened muscle."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Pericarditis",
+    "description": "Inflammation of the pericardium (the sac surrounding the heart) (ICD-10: I30). It is often idiopathic or viral in origin.",
+    "symptoms": [
+      {
+        "symptom": "Positional Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Sharp pain that worsens when lying flat and improves when leaning forward."
+      },
+      {
+        "symptom": "Pericardial Friction Rub",
+        "confidence_indicator": "High",
+        "details": "A scratching sound heard through a stethoscope."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows diffuse ST-segment elevation and PR-segment depression."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "NSAIDs (Ibuprofen/Aspirin)",
+        "confidence_efficacy": "High",
+        "details": "High-dose anti-inflammatories are the mainstay of treatment."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Colchicine",
+        "confidence_efficacy": "High",
+        "details": "Added to NSAIDs to prevent recurrence of the inflammation."
+      }
+    ]
+  },
+  {
+    "disease_name": "Infective Endocarditis",
+    "description": "An infection of the endocardium, usually involving the heart valves (ICD-10: I33). Bacteria enter the bloodstream and attach to damaged portions of the heart.",
+    "symptoms": [
+      {
+        "symptom": "Persistent Fever",
+        "confidence_indicator": "High",
+        "details": "Unexplained fever lasting days or weeks."
+      },
+      {
+        "symptom": "Janeway Lesions",
+        "confidence_indicator": "Medium",
+        "details": "Painless red spots on the palms or soles."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Transesophageal Echocardiogram (TEE)",
+        "is_gold_standard": true,
+        "purpose": "Superior to TTE for visualizing 'vegetations' (bacterial clumps) on valves."
+      },
+      {
+        "procedure": "Blood Cultures",
+        "is_gold_standard": true,
+        "purpose": "Requires multiple sets to identify the specific bacteria causing the infection."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "IV Antibiotics",
+        "confidence_efficacy": "High",
+        "details": "High-dose intravenous antibiotics for 4-6 weeks."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Valve Replacement Surgery",
+        "confidence_efficacy": "High",
+        "details": "Required if the infection destroys the valve or causes heart failure."
+      }
+    ]
+  },
+  {
+    "disease_name": "Atrial Flutter",
+    "description": "A type of abnormal heart rhythm that occurs in the atria of the heart (ICD-10: I48.3). It is similar to AFib but the rhythm is organized and regular (sawtooth pattern).",
+    "symptoms": [
+      {
+        "symptom": "Rapid Heart Rate",
+        "confidence_indicator": "High",
+        "details": "Pulse is often fast and steady (e.g., 150 bpm)."
+      },
+      {
+        "symptom": "Fatigue",
+        "confidence_indicator": "Medium",
+        "details": "Tiredness due to inefficient pumping."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows characteristic 'sawtooth' flutter waves (F-waves)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Radiofrequency Ablation",
+        "confidence_efficacy": "High",
+        "details": "Cauterizing the specific electrical circuit (isthmus) causing the flutter; high success rate."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Rate Control (Beta Blockers)",
+        "confidence_efficacy": "Medium",
+        "details": "Used to lower the heart rate if ablation is not performed."
+      }
+    ]
+  },
+  {
+    "disease_name": "Abdominal Aortic Aneurysm (AAA)",
+    "description": "An enlargement of the aorta, the main blood vessel that delivers blood to the body, at the level of the abdomen (ICD-10: I71.4). If it bursts, it causes life-threatening internal bleeding.",
+    "symptoms": [
+      {
+        "symptom": "Pulsating Abdominal Mass",
+        "confidence_indicator": "Medium",
+        "details": "A feeling of a heartbeat near the navel."
+      },
+      {
+        "symptom": "Deep Abdominal/Back Pain",
+        "confidence_indicator": "Medium",
+        "details": "Constant, gnawing pain in the abdomen or side of the back."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Abdominal Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "The primary screening tool to measure the diameter of the aorta (normal is < 3cm)."
+      },
+      {
+        "procedure": "CT Angiography",
+        "is_gold_standard": false,
+        "purpose": "Used for surgical planning to visualize the exact anatomy and extent of the aneurysm."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "EVAR (Endovascular Aneurysm Repair)",
+        "confidence_efficacy": "High",
+        "details": "Minimally invasive placement of a stent-graft inside the aneurysm to reinforce the wall."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "Regular Ultrasound Monitoring",
+        "confidence_efficacy": "High",
+        "details": "For small aneurysms (< 5.0 cm), monitoring growth rate is the standard of care."
+      }
+    ]
+  },
+  {
+    "disease_name": "Aortic Dissection (Type A)",
+    "description": "A life-threatening condition where the inner layer of the aorta tears, causing blood to rush between the layers and separate (dissect) them (ICD-10: I71.0). Type A involves the ascending aorta.",
+    "symptoms": [
+      {
+        "symptom": "Tearing Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Sudden, severe pain described as 'ripping' or 'tearing' radiating to the back (between shoulder blades)."
+      },
+      {
+        "symptom": "Pulse Deficit",
+        "confidence_indicator": "High",
+        "details": "Difference in blood pressure or pulse strength between the left and right arms."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "CT Angiography (CTA)",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the 'intimal flap' (the tear) and the false lumen created by the blood flow."
+      },
+      {
+        "procedure": "Transesophageal Echocardiogram (TEE)",
+        "is_gold_standard": false,
+        "purpose": "Can be used in unstable patients who cannot be moved to a CT scanner."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Emergency Open Surgery",
+        "confidence_efficacy": "High",
+        "details": "Replacing the damaged section of the aorta with a synthetic tube graft. Immediate surgery is required for survival."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "IV Beta Blockers (Esmolol)",
+        "confidence_efficacy": "High",
+        "details": "Used immediately to lower heart rate and blood pressure to prevent the tear from spreading."
+      }
+    ]
+  },
+  {
+    "disease_name": "Deep Vein Thrombosis (DVT)",
+    "description": "A blood clot (thrombus) forms in a deep vein, usually in the legs (ICD-10: I82.4). The major risk is the clot breaking loose and traveling to the lungs (PE).",
+    "symptoms": [
+      {
+        "symptom": "Unilateral Leg Swelling",
+        "confidence_indicator": "High",
+        "details": "Swelling in just one leg, often starting at the calf."
+      },
+      {
+        "symptom": "Calf Pain/Tenderness",
+        "confidence_indicator": "High",
+        "details": "Cramping pain that worsens when bending the foot upward (Homan's sign)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Duplex Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the vein and checks for compressibility (a clot prevents the vein from collapsing)."
+      },
+      {
+        "procedure": "D-Dimer",
+        "is_gold_standard": false,
+        "purpose": "Blood test used to rule out DVT in low-risk patients."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Anticoagulants (DOACs/Warfarin)",
+        "confidence_efficacy": "High",
+        "details": "Medication to prevent the clot from growing and allow the body to dissolve it over time."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Compression Stockings",
+        "confidence_efficacy": "Medium",
+        "details": "Helps reduce swelling and prevent Post-Thrombotic Syndrome."
+      }
+    ]
+  },
+  {
+    "disease_name": "Peripheral Artery Disease (PAD)",
+    "description": "Narrowing of the arteries in the limbs, usually the legs, due to atherosclerosis (plaque buildup) (ICD-10: I73.9). It reduces blood flow to muscles.",
+    "symptoms": [
+      {
+        "symptom": "Intermittent Claudication",
+        "confidence_indicator": "High",
+        "details": "Pain or cramping in the legs (calves) triggered by walking and relieved by rest."
+      },
+      {
+        "symptom": "Weak Pulses",
+        "confidence_indicator": "High",
+        "details": "Diminished or absent pulses in the feet (dorsalis pedis)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Ankle-Brachial Index (ABI)",
+        "is_gold_standard": true,
+        "purpose": "Compares blood pressure in the ankle to the arm. An index < 0.90 indicates PAD."
+      },
+      {
+        "procedure": "Angiography",
+        "is_gold_standard": false,
+        "purpose": "Imaging to locate the exact site of the blockage for potential intervention."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Cilostazol",
+        "confidence_efficacy": "Medium",
+        "details": "Medication that dilates arteries and improves walking distance."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Revascularization (Bypass/Stent)",
+        "confidence_efficacy": "High",
+        "details": "Surgery to route blood around the blocked artery or open it with a balloon."
+      }
+    ]
+  },
+  {
+    "disease_name": "Third-Degree Atrioventricular Block",
+    "description": "Complete heart block where no electrical signals from the atria reach the ventricles (ICD-10: I44.2). The ventricles beat at their own very slow 'escape' rate.",
+    "symptoms": [
+      {
+        "symptom": "Severe Bradycardia",
+        "confidence_indicator": "High",
+        "details": "Heart rate is dangerously slow (e.g., 30-40 bpm)."
+      },
+      {
+        "symptom": "Syncope (Stokes-Adams attack)",
+        "confidence_indicator": "High",
+        "details": "Sudden loss of consciousness due to insufficient blood flow to the brain."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows P waves (atria) and QRS complexes (ventricles) beating completely independently (AV dissociation)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Permanent Pacemaker",
+        "confidence_efficacy": "High",
+        "details": "Implanted device to electrically stimulate the heart ventricles at a normal rate. Required for survival."
+      },
+      {
+        "treatment_type": "Emergency Treatment",
+        "treatment": "Atropine / Transcutaneous Pacing",
+        "confidence_efficacy": "Medium",
+        "details": "Temporary measures to increase heart rate in an emergency setting."
+      }
+    ]
+  },
+  {
+    "disease_name": "Wolff-Parkinson-White Syndrome (WPW)",
+    "description": "A congenital condition involving an extra electrical pathway (Bundle of Kent) between the atria and ventricles, causing rapid heartbeats (ICD-10: I45.6).",
+    "symptoms": [
+      {
+        "symptom": "Palpitations",
+        "confidence_indicator": "High",
+        "details": "Sudden episodes of very rapid heart rate."
+      },
+      {
+        "symptom": "Dizziness",
+        "confidence_indicator": "Medium",
+        "details": "Lightheadedness during episodes of tachycardia."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows a 'Delta wave' (slurred upstroke of QRS) and a short PR interval."
+      },
+      {
+        "procedure": "Electrophysiology Study (EPS)",
+        "is_gold_standard": true,
+        "purpose": "Maps the electrical system to locate the exact position of the accessory pathway."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Catheter Ablation",
+        "confidence_efficacy": "High",
+        "details": "Burning or freezing the extra pathway to permanently stop the abnormal signals."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Antiarrhythmic Drugs",
+        "confidence_efficacy": "Medium",
+        "details": "Medications like Procainamide to suppress the abnormal rhythm (AV nodal blockers like Adenosine are often contraindicated)."
+      }
+    ]
+  },
+  {
+    "disease_name": "Long QT Syndrome",
+    "description": "A heart rhythm disorder that can cause fast, chaotic heartbeats (ICD-10: I45.81). It involves delayed repolarization of the heart, seen as a long QT interval on ECG.",
+    "symptoms": [
+      {
+        "symptom": "Fainting (Syncope)",
+        "confidence_indicator": "High",
+        "details": "Often triggered by exercise, swimming, or emotional stress."
+      },
+      {
+        "symptom": "Seizures",
+        "confidence_indicator": "Medium",
+        "details": "Caused by the brain not getting enough oxygen during an arrhythmia episode."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Measures the QTc interval. > 480ms is generally considered diagnostic."
+      },
+      {
+        "procedure": "Genetic Testing",
+        "is_gold_standard": false,
+        "purpose": "Identifies mutations in ion channel genes (KCNQ1, KCNH2, SCN5A)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Beta Blockers (Nadolol)",
+        "confidence_efficacy": "High",
+        "details": "Blunts the adrenaline response that triggers the arrhythmia."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "ICD (Implantable Cardioverter Defibrillator)",
+        "confidence_efficacy": "High",
+        "details": "Implated in high-risk patients to shock the heart back to rhythm if cardiac arrest occurs."
+      }
+    ]
+  },
+  {
+    "disease_name": "Sick Sinus Syndrome",
+    "description": "A group of heart rhythm problems in which the sinus node (the heart's natural pacemaker) doesn't work properly (ICD-10: I49.5). It often manifests as alternating slow and fast rhythms (Tachy-Brady syndrome).",
+    "symptoms": [
+      {
+        "symptom": "Bradycardia",
+        "confidence_indicator": "High",
+        "details": "Unusually slow heartbeat while awake."
+      },
+      {
+        "symptom": "Fatigue and Weakness",
+        "confidence_indicator": "High",
+        "details": "Chronic tiredness due to inadequate heart rate response to activity."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Holter Monitor",
+        "is_gold_standard": true,
+        "purpose": "24-48 hour recording to catch episodes of sinus pauses or bradycardia."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Pacemaker Implantation",
+        "confidence_efficacy": "High",
+        "details": "The standard treatment to prevent the heart from beating too slowly."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Medication Adjustment",
+        "confidence_efficacy": "High",
+        "details": "Stopping any drugs (like beta blockers) that might be worsening the slow heart rate."
+      }
+    ]
+  },
+  {
+    "disease_name": "Aortic Regurgitation",
+    "description": "A condition where the aortic valve doesn't close tightly, allowing blood to leak backward from the aorta into the left ventricle (ICD-10: I35.1).",
+    "symptoms": [
+      {
+        "symptom": "Bounding Pulse",
+        "confidence_indicator": "High",
+        "details": "A forceful pulse that can be seen or felt in the neck (Corrigan's pulse)."
+      },
+      {
+        "symptom": "Exertional Dyspnea",
+        "confidence_indicator": "Medium",
+        "details": "Shortness of breath during exercise as the heart fails to pump efficiently."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the backflow (regurgitant jet) and measures the severity."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Aortic Valve Replacement",
+        "confidence_efficacy": "High",
+        "details": "Surgery to replace the leaky valve is indicated when symptoms appear or the heart enlarges."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Vasodilators (ACE Inhibitors)",
+        "confidence_efficacy": "Medium",
+        "details": "Reduces the pressure the heart has to pump against, reducing the backward leak."
+      }
+    ]
+  },
+  {
+    "disease_name": "Raynaud's Phenomenon",
+    "description": "A problem with blood flow to the fingers (and sometimes toes, ears, nose) in response to cold or stress (ICD-10: I73.0). The small arteries narrow appropriately (vasospasm).",
+    "symptoms": [
+      {
+        "symptom": "Color Changes",
+        "confidence_indicator": "High",
+        "details": "Fingers turn white (ischemia), then blue (hypoxia), then red (reperfusion)."
+      },
+      {
+        "symptom": "Numbness/Coldness",
+        "confidence_indicator": "High",
+        "details": "Loss of sensation in the affected digits during the attack."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Cold Stimulation Test",
+        "is_gold_standard": false,
+        "purpose": "Measuring temperature recovery of fingers after immersion in ice water."
+      },
+      {
+        "procedure": "Nailfold Capillaroscopy",
+        "is_gold_standard": true,
+        "purpose": "Microscopic exam of the nail bed to distinguish primary Raynaud's from secondary (caused by autoimmune disease)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Calcium Channel Blockers (Nifedipine)",
+        "confidence_efficacy": "High",
+        "details": "Relaxes the small blood vessels to prevent spasms."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Avoidance of Triggers",
+        "confidence_efficacy": "High",
+        "details": "Keeping hands warm (gloves) and avoiding smoking."
+      }
+    ]
+  },
+  {
+    "disease_name": "Atrial Septal Defect (ASD)",
+    "description": "A 'hole in the heart' between the two upper chambers (atria) present at birth (ICD-10: Q21.1). Oxygen-rich blood leaks from the left side to the right side, increasing blood flow to the lungs.",
+    "symptoms": [
+      {
+        "symptom": "Heart Murmur",
+        "confidence_indicator": "High",
+        "details": "A soft 'whooshing' sound heard between heartbeats, often the only sign in children."
+      },
+      {
+        "symptom": "Frequent Respiratory Infections",
+        "confidence_indicator": "Medium",
+        "details": "Increased blood flow to the lungs makes them more susceptible to infection."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram with Bubble Study",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the hole; bubbles injected into a vein are seen crossing from right to left atrium."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Transcatheter Device Closure",
+        "confidence_efficacy": "High",
+        "details": "A plug-like device (e.g., Amplatzer) is inserted via catheter to seal the hole."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "Observation",
+        "confidence_efficacy": "High",
+        "details": "Small defects often close on their own during childhood and require no treatment."
+      }
+    ]
+  },
+  {
+    "disease_name": "Ventricular Septal Defect (VSD)",
+    "description": "A hole in the wall separating the two lower chambers (ventricles) of the heart (ICD-10: Q21.0). It is the most common congenital heart defect.",
+    "symptoms": [
+      {
+        "symptom": "Failure to Thrive",
+        "confidence_indicator": "High",
+        "details": "Infants may tire easily during feeding and fail to gain weight."
+      },
+      {
+        "symptom": "Loud Pansystolic Murmur",
+        "confidence_indicator": "High",
+        "details": "A distinctive, harsh noise heard through a stethoscope."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Determines the size and location of the defect to assess the need for surgery."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Surgical Patch Closure",
+        "confidence_efficacy": "High",
+        "details": "Open-heart surgery to sew a patch over the hole; usually done in infancy for large defects."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Diuretics (Furosemide)",
+        "confidence_efficacy": "Medium",
+        "details": "Helps reduce fluid retention in the lungs caused by the extra blood flow."
+      }
+    ]
+  },
+  {
+    "disease_name": "Tetralogy of Fallot",
+    "description": "A complex condition consisting of four defects: VSD, Pulmonary Stenosis, Right Ventricular Hypertrophy, and Overriding Aorta (ICD-10: Q21.3). It causes oxygen-poor blood to flow out to the body.",
+    "symptoms": [
+      {
+        "symptom": "Cyanosis",
+        "confidence_indicator": "High",
+        "details": "Blue tint to the skin, lips, and fingernails because of low oxygen levels."
+      },
+      {
+        "symptom": "Tet Spells",
+        "confidence_indicator": "High",
+        "details": "Sudden episodes of deep blue skin after crying or feeding."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Fetal Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Can diagnose the condition before the baby is born."
+      },
+      {
+        "procedure": "Cardiac Catheterization",
+        "is_gold_standard": false,
+        "purpose": "Measures pressure and oxygen levels in the heart chambers prior to surgery."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Complete Intracardiac Repair",
+        "confidence_efficacy": "High",
+        "details": "Open-heart surgery to patch the VSD and widen the pulmonary valve, usually done in the first year of life."
+      }
+    ]
+  },
+  {
+    "disease_name": "Coarctation of the Aorta",
+    "description": "A narrowing of the aorta, usually just after the arteries branch off to the head and arms (ICD-10: Q25.1). The heart must pump harder to force blood through the narrow part.",
+    "symptoms": [
+      {
+        "symptom": "Blood Pressure Discrepancy",
+        "confidence_indicator": "High",
+        "details": "High blood pressure in the arms but low blood pressure in the legs."
+      },
+      {
+        "symptom": "Cold Legs/Feet",
+        "confidence_indicator": "Medium",
+        "details": "Reduced blood flow to the lower body."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "CT Angiography / MRI",
+        "is_gold_standard": true,
+        "purpose": "Provides detailed 3D imaging of the aortic arch anatomy."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Balloon Angioplasty / Stenting",
+        "confidence_efficacy": "High",
+        "details": "Expanding the narrowed section using a balloon catheter."
+      },
+      {
+        "treatment_type": "Cure",
+        "treatment": "Resection and Anastomosis",
+        "confidence_efficacy": "High",
+        "details": "Surgery to remove the narrowed segment and reconnect the ends."
+      }
+    ]
+  },
+  {
+    "disease_name": "Patent Ductus Arteriosus (PDA)",
+    "description": "A persistent opening between the two major blood vessels leading from the heart (aorta and pulmonary artery) (ICD-10: Q25.0). This opening normally closes shortly after birth.",
+    "symptoms": [
+      {
+        "symptom": "Machinery Murmur",
+        "confidence_indicator": "High",
+        "details": "A continuous, machine-like heart sound."
+      },
+      {
+        "symptom": "Fast Breathing",
+        "confidence_indicator": "Medium",
+        "details": "Tachypnea caused by lung congestion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Confirms the flow of blood from the aorta into the pulmonary artery."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Indomethacin / Ibuprofen",
+        "confidence_efficacy": "High",
+        "details": "NSAIDs can stimulate the vessel to close in premature infants."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Device Closure",
+        "confidence_efficacy": "High",
+        "details": "Using a catheter to place a coil or plug to seal the opening in older children."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Myocarditis",
+    "description": "Inflammation of the heart muscle (myocardium), most often caused by a viral infection (e.g., Coxsackie, COVID-19) (ICD-10: I40). It can weaken the heart and cause arrhythmias.",
+    "symptoms": [
+      {
+        "symptom": "Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Can mimic a heart attack due to inflammation."
+      },
+      {
+        "symptom": "Fatigue",
+        "confidence_indicator": "High",
+        "details": "Extreme tiredness often following a recent flu-like illness."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Cardiac MRI",
+        "is_gold_standard": true,
+        "purpose": "Shows tissue edema (swelling) and late gadolinium enhancement (scarring)."
+      },
+      {
+        "procedure": "Endomyocardial Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Taking a tissue sample; used only in severe/unclear cases as it is invasive."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Rest and Activity Restriction",
+        "confidence_efficacy": "High",
+        "details": "Avoiding athletic activity for 3-6 months is critical to prevent sudden cardiac death."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Heart Failure Medications",
+        "confidence_efficacy": "High",
+        "details": "Beta blockers and ACE inhibitors used temporarily to support the pump function."
+      }
+    ]
+  },
+  {
+    "disease_name": "Rheumatic Heart Disease",
+    "description": "Permanent damage to the heart valves caused by rheumatic fever, which is an autoimmune reaction to an untreated strep throat infection (ICD-10: I05-I09).",
+    "symptoms": [
+      {
+        "symptom": "Shortness of Breath",
+        "confidence_indicator": "High",
+        "details": "Caused by valve damage (stenosis or regurgitation) developing years after the infection."
+      },
+      {
+        "symptom": "Joint Pain",
+        "confidence_indicator": "Medium",
+        "details": "History of migratory arthritis during the initial acute fever phase."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows characteristic valve thickening and fusion (especially the mitral valve)."
+      },
+      {
+        "procedure": "Antistreptolysin O (ASO) Titer",
+        "is_gold_standard": false,
+        "purpose": "Blood test confirming recent streptococcal infection (useful in acute phase)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Prophylaxis",
+        "treatment": "Penicillin Injection",
+        "confidence_efficacy": "High",
+        "details": "Long-term monthly antibiotic injections (sometimes for years) to prevent recurrent Strep infections."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Valve Surgery",
+        "confidence_efficacy": "High",
+        "details": "Repair or replacement of the damaged valves."
+      }
+    ]
+  },
+  {
+    "disease_name": "Takotsubo Cardiomyopathy",
+    "description": "A temporary heart condition brought on by extreme stress or grief ('Broken Heart Syndrome') (ICD-10: I42.8). The left ventricle balloons out and weakens.",
+    "symptoms": [
+      {
+        "symptom": "Sudden Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Indistinguishable from a heart attack."
+      },
+      {
+        "symptom": "Dyspnea",
+        "confidence_indicator": "High",
+        "details": "Shortness of breath due to acute heart failure."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Ventriculography / Coronary Angiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows the characteristic 'octopus pot' shape of the ventricle and clean coronary arteries (no blockage)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Beta Blockers / ACE Inhibitors",
+        "confidence_efficacy": "High",
+        "details": "Used to reduce workload on the heart while it recovers naturally (usually within weeks)."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Stress Management",
+        "confidence_efficacy": "Medium",
+        "details": "Avoiding emotional triggers to prevent recurrence."
+      }
+    ]
+  },
+  {
+    "disease_name": "Tricuspid Regurgitation",
+    "description": "A condition where the valve between the two right heart chambers doesn't close properly, causing blood to leak backward into the right atrium (ICD-10: I07.1).",
+    "symptoms": [
+      {
+        "symptom": "Pulsating Neck Veins",
+        "confidence_indicator": "High",
+        "details": "Jugular venous distension with a visible pulse wave."
+      },
+      {
+        "symptom": "Ascites / Liver Swelling",
+        "confidence_indicator": "Medium",
+        "details": "Fluid accumulation in the abdomen due to back pressure in the venous system."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Measures the severity of the leak and the pressure in the pulmonary artery."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Diuretics",
+        "confidence_efficacy": "High",
+        "details": "Reduces fluid buildup in the body."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Tricuspid Valve Repair (Annuloplasty)",
+        "confidence_efficacy": "Medium",
+        "details": "Surgical tightening of the valve ring, often done during other heart surgeries."
+      }
+    ]
+  },
+  {
+    "disease_name": "Pulmonary Stenosis",
+    "description": "A narrowing of the pulmonary valve, obstructing blood flow from the right ventricle to the lungs (ICD-10: Q22.1).",
+    "symptoms": [
+      {
+        "symptom": "Fatigue",
+        "confidence_indicator": "Medium",
+        "details": "Reduced exercise tolerance."
+      },
+      {
+        "symptom": "Systolic Ejection Murmur",
+        "confidence_indicator": "High",
+        "details": "A murmur heard at the upper left sternal border."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Measures the pressure gradient across the valve to determine severity."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Balloon Valvuloplasty",
+        "confidence_efficacy": "High",
+        "details": "The treatment of choice; a balloon is inflated to stretch the valve open."
+      }
+    ]
+  },
+  {
+    "disease_name": "Pulmonary Arterial Hypertension (PAH)",
+    "description": "High blood pressure specifically in the arteries of the lungs (ICD-10: I27.0). The small arteries in the lungs narrow, forcing the right side of the heart to work harder, eventually leading to failure.",
+    "symptoms": [
+      {
+        "symptom": "Dyspnea on Exertion",
+        "confidence_indicator": "High",
+        "details": "Shortness of breath that progressively worsens with activity."
+      },
+      {
+        "symptom": "Syncope",
+        "confidence_indicator": "Medium",
+        "details": "Fainting episodes caused by the inability of the heart to increase blood flow during exertion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Right Heart Catheterization",
+        "is_gold_standard": true,
+        "purpose": "Directly measures the pressure in the pulmonary arteries (mPAP > 20 mmHg confirms diagnosis)."
+      },
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": false,
+        "purpose": "Estimates pulmonary pressures and shows right ventricular enlargement."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "PDE-5 Inhibitors (Sildenafil)",
+        "confidence_efficacy": "High",
+        "details": "Relaxes the blood vessels in the lungs to lower pressure."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Endothelin Receptor Antagonists",
+        "confidence_efficacy": "High",
+        "details": "Blocks substances that cause blood vessels to constrict."
+      }
+    ]
+  },
+  {
+    "disease_name": "Cor Pulmonale",
+    "description": "Failure of the right side of the heart caused by long-term high blood pressure in the pulmonary arteries and right ventricle (ICD-10: I27.9). It is usually a complication of chronic lung diseases like COPD.",
+    "symptoms": [
+      {
+        "symptom": "Peripheral Edema",
+        "confidence_indicator": "High",
+        "details": "Significant swelling in legs and feet due to right-sided failure."
+      },
+      {
+        "symptom": "Jugular Venous Distension",
+        "confidence_indicator": "High",
+        "details": "Bulging neck veins indicating high venous pressure."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Assesses the size and function of the right ventricle."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Oxygen Therapy",
+        "confidence_efficacy": "High",
+        "details": "Relieves the low oxygen levels that cause the pulmonary arteries to constrict."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Diuretics",
+        "confidence_efficacy": "Medium",
+        "details": "Reduces fluid overload."
+      }
+    ]
+  },
+  {
+    "disease_name": "Paroxysmal Supraventricular Tachycardia (PSVT)",
+    "description": "Episodes of rapid heart rate (160-220 bpm) that start and stop suddenly, originating above the ventricles (ICD-10: I47.1).",
+    "symptoms": [
+      {
+        "symptom": "Heart Palpitations",
+        "confidence_indicator": "High",
+        "details": "Sensation of the heart racing or pounding in the chest or throat."
+      },
+      {
+        "symptom": "Anxiety",
+        "confidence_indicator": "Medium",
+        "details": "Sudden feeling of panic accompanying the rapid rate."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG (during episode)",
+        "is_gold_standard": true,
+        "purpose": "Shows a narrow complex tachycardia with hidden or abnormal P-waves."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Acute Treatment",
+        "treatment": "Vagal Maneuvers",
+        "confidence_efficacy": "Medium",
+        "details": "Techniques like bearing down (Valsalva) or splashing cold water on the face to slow the heart."
+      },
+      {
+        "treatment_type": "Acute Treatment",
+        "treatment": "Adenosine",
+        "confidence_efficacy": "High",
+        "details": "IV medication that briefly blocks the AV node to 'reset' the rhythm."
+      }
+    ]
+  },
+  {
+    "disease_name": "Ventricular Tachycardia (VT)",
+    "description": "A fast, abnormal heart rhythm starting in the lower chambers (ventricles) (ICD-10: I47.2). It is potentially life-threatening as it can degrade into Ventricular Fibrillation.",
+    "symptoms": [
+      {
+        "symptom": "Dizziness / Lightheadedness",
+        "confidence_indicator": "High",
+        "details": "Caused by the heart beating too fast to fill properly, reducing output."
+      },
+      {
+        "symptom": "Syncope",
+        "confidence_indicator": "High",
+        "details": "Loss of consciousness is common if the rhythm is sustained."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows a wide complex tachycardia (QRS > 120ms)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Emergency Treatment",
+        "treatment": "Cardioversion",
+        "confidence_efficacy": "High",
+        "details": "Electric shock to restore normal rhythm in unstable patients."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Amiodarone",
+        "confidence_efficacy": "Medium",
+        "details": "Antiarrhythmic drug used to stabilize the rhythm."
+      }
+    ]
+  },
+  {
+    "disease_name": "Premature Ventricular Contractions (PVCs)",
+    "description": "Extra heartbeats that begin in one of the ventricles (ICD-10: I49.3). These disrupt the regular heart rhythm and often cause a 'skipping' sensation.",
+    "symptoms": [
+      {
+        "symptom": "Skipped Heartbeat Sensation",
+        "confidence_indicator": "High",
+        "details": "Feeling a pause followed by a strong thud (the post-extrasystolic beat)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Holter Monitor",
+        "is_gold_standard": true,
+        "purpose": "Quantifies the 'burden' (percentage) of PVCs over a 24-hour period."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Beta Blockers",
+        "confidence_efficacy": "Medium",
+        "details": "Used if symptoms are bothersome to suppress the extra beats."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "Reassurance",
+        "confidence_efficacy": "High",
+        "details": "In healthy hearts, no treatment is needed as PVCs are benign."
+      }
+    ]
+  },
+  {
+    "disease_name": "Restrictive Cardiomyopathy",
+    "description": "A rare form of heart muscle disease where the ventricles become stiff and rigid, but not thickened (ICD-10: I42.5). The heart cannot relax to fill with blood.",
+    "symptoms": [
+      {
+        "symptom": "Dyspnea",
+        "confidence_indicator": "High",
+        "details": "Shortness of breath due to high filling pressures backing up into lungs."
+      },
+      {
+        "symptom": "Fatigue",
+        "confidence_indicator": "High",
+        "details": "Inability to increase cardiac output during activity."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Cardiac MRI",
+        "is_gold_standard": true,
+        "purpose": "Can differentiate restriction from constriction and identify infiltration (e.g., Amyloidosis)."
+      },
+      {
+        "procedure": "Endomyocardial Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Definitive test to find the cause (e.g., amyloid proteins, iron overload)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Loop Diuretics",
+        "confidence_efficacy": "Medium",
+        "details": "Cautious use to reduce congestion without lowering filling pressure too much."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Treating Underlying Cause",
+        "confidence_efficacy": "Variable",
+        "details": "Chemotherapy for Amyloidosis or Chelation for Hemochromatosis."
+      }
+    ]
+  },
+  {
+    "disease_name": "Cardiac Tamponade",
+    "description": "A medical emergency where fluid or blood accumulates in the pericardial sac, compressing the heart and preventing it from filling (ICD-10: I31.4).",
+    "symptoms": [
+      {
+        "symptom": "Beck's Triad",
+        "confidence_indicator": "High",
+        "details": "Low blood pressure, distended neck veins, and distant (muffled) heart sounds."
+      },
+      {
+        "symptom": "Tachycardia",
+        "confidence_indicator": "High",
+        "details": "Rapid heart rate as the body tries to compensate for low output."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows pericardial effusion with collapse of the right atrium/ventricle during diastole."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Pericardiocentesis",
+        "confidence_efficacy": "High",
+        "details": "Needle drainage of the fluid from the sac to relieve pressure immediately."
+      }
+    ]
+  },
+  {
+    "disease_name": "Prinzmetal's Angina (Variant Angina)",
+    "description": "Chest pain caused by a spasm of the coronary arteries rather than a blockage (ICD-10: I20.1). It typically occurs at rest, often in the early morning.",
+    "symptoms": [
+      {
+        "symptom": "Cyclical Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Severe pain occurring at the same time each day, usually at rest."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Ergonovine Stimulation Test",
+        "is_gold_standard": true,
+        "purpose": "Provocative test during angiography to induce the spasm and confirm diagnosis."
+      },
+      {
+        "procedure": "ECG",
+        "is_gold_standard": false,
+        "purpose": "Shows transient ST-segment elevation during pain that resolves when pain stops."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Prevention",
+        "treatment": "Calcium Channel Blockers",
+        "confidence_efficacy": "High",
+        "details": "Potent vasodilators that prevent the spasms from occurring."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Nitroglycerin",
+        "confidence_efficacy": "High",
+        "details": "Effective for stopping an acute attack."
+      }
+    ]
+  },
+  {
+    "disease_name": "Atrial Myxoma",
+    "description": "The most common primary heart tumor (benign), usually found in the left atrium (ICD-10: D15.1). It can obstruct blood flow or break off causing strokes.",
+    "symptoms": [
+      {
+        "symptom": "Positional Dyspnea",
+        "confidence_indicator": "Medium",
+        "details": "Breathing difficulty that changes when standing up or lying down (tumor moves)."
+      },
+      {
+        "symptom": "Constitutional Symptoms",
+        "confidence_indicator": "Low",
+        "details": "Fever and weight loss due to systemic inflammation caused by the tumor."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Visualizes a mobile mass attached to the atrial septum."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Surgical Resection",
+        "confidence_efficacy": "High",
+        "details": "Open heart surgery to remove the tumor is curative."
+      }
+    ]
+  },
+  {
+    "disease_name": "Brugada Syndrome",
+    "description": "A rare genetic disorder of the heart's electrical system that increases the risk of abnormal heart rhythms and sudden cardiac death (ICD-10: I49.8).",
+    "symptoms": [
+      {
+        "symptom": "Syncope",
+        "confidence_indicator": "High",
+        "details": "Fainting without warning."
+      },
+      {
+        "symptom": "Nocturnal Agonal Respiration",
+        "confidence_indicator": "Medium",
+        "details": "Gasping or labored breathing during sleep."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ECG",
+        "is_gold_standard": true,
+        "purpose": "Shows characteristic 'coved' ST-segment elevation in leads V1-V3 (Type 1 pattern)."
+      },
+      {
+        "procedure": "Pharmacological Challenge",
+        "is_gold_standard": false,
+        "purpose": "Administering sodium channel blockers (like Ajmaline) to unmask the ECG pattern."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "ICD Implantation",
+        "confidence_efficacy": "High",
+        "details": "The only proven therapy to prevent sudden death."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Avoidance of Fever/Drugs",
+        "confidence_efficacy": "High",
+        "details": "Fevers and certain medications can trigger the fatal arrhythmia."
+      }
+    ]
+  },
+  {
+    "disease_name": "Kawasaki Disease",
+    "description": "An acute condition that causes inflammation in the walls of some blood vessels in the body (ICD-10: M30.3). It most commonly affects infants and young children and is a leading cause of acquired heart disease (coronary artery aneurysms).",
+    "symptoms": [
+      {
+        "symptom": "Strawberry Tongue",
+        "confidence_indicator": "High",
+        "details": "The tongue becomes very red, swollen, and bumpy."
+      },
+      {
+        "symptom": "Prolonged Fever",
+        "confidence_indicator": "High",
+        "details": "High fever lasting more than 5 days that does not respond to standard fever reducers."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Essential to monitor for the development of coronary artery aneurysms."
+      },
+      {
+        "procedure": "Clinical Criteria",
+        "is_gold_standard": true,
+        "purpose": "Diagnosis is based on specific signs (CRASH and Burn: Conjunctivitis, Rash, Adenopathy, Strawberry tongue, Hands/feet swelling, Fever)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "IVIG (Intravenous Immunoglobulin)",
+        "confidence_efficacy": "High",
+        "details": "Reduces inflammation and significantly lowers the risk of coronary artery damage if given within the first 10 days."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "High-Dose Aspirin",
+        "confidence_efficacy": "High",
+        "details": "Used for anti-inflammatory and anti-platelet effects (one of the few exceptions for aspirin use in children)."
+      }
+    ]
+  },
+  {
+    "disease_name": "Giant Cell Arteritis (Temporal Arteritis)",
+    "description": "An inflammation of the lining of the arteries (ICD-10: M31.5). Most often it affects the arteries in the head, especially those in the temples. It is a medical emergency due to risk of blindness.",
+    "symptoms": [
+      {
+        "symptom": "Severe Headaches",
+        "confidence_indicator": "High",
+        "details": "Tenderness over the temples/scalp (pain when brushing hair)."
+      },
+      {
+        "symptom": "Jaw Claudication",
+        "confidence_indicator": "High",
+        "details": "Pain in the jaw when chewing."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Temporal Artery Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Removing a small piece of the artery to look for giant cells under a microscope."
+      },
+      {
+        "procedure": "ESR / CRP Blood Tests",
+        "is_gold_standard": false,
+        "purpose": "Markers of inflammation that are almost always significantly elevated."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "High-Dose Corticosteroids",
+        "confidence_efficacy": "High",
+        "details": "Prednisone is started immediately (even before biopsy confirmation) to prevent permanent vision loss."
+      }
+    ]
+  },
+  {
+    "disease_name": "Chagas Cardiomyopathy",
+    "description": "A chronic heart condition caused by the parasite *Trypanosoma cruzi* (Chagas disease) (ICD-10: B57.2). Years after infection, the parasite destroys heart muscle, leading to dilation and failure.",
+    "symptoms": [
+      {
+        "symptom": "Heart Failure Symptoms",
+        "confidence_indicator": "High",
+        "details": "Edema, fatigue, and dyspnea appearing decades after the insect bite."
+      },
+      {
+        "symptom": "Apical Aneurysm",
+        "confidence_indicator": "Medium",
+        "details": "Thinning of the tip of the heart, a hallmark of Chagas."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Serology (IgG Antibodies)",
+        "is_gold_standard": true,
+        "purpose": "Detects exposure to the parasite."
+      },
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": false,
+        "purpose": "Often shows a characteristic aneurysm at the apex of the left ventricle."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Antiparasitics (Benznidazole)",
+        "confidence_efficacy": "Low",
+        "details": "Effective in the acute phase but controversial in the chronic heart failure stage."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Pacemaker / ICD",
+        "confidence_efficacy": "High",
+        "details": "Commonly needed due to severe conduction blocks caused by the parasite."
+      }
+    ]
+  },
+  {
+    "disease_name": "Takayasu Arteritis",
+    "description": "A rare type of vasculitis that damages the aorta and its main branches (ICD-10: M31.4). It leads to narrowing or blockage of arteries, often called 'Pulseless Disease'.",
+    "symptoms": [
+      {
+        "symptom": "Weak/Absent Pulses",
+        "confidence_indicator": "High",
+        "details": "Difficulty feeling a pulse in the arms."
+      },
+      {
+        "symptom": "Arm Pain (Claudication)",
+        "confidence_indicator": "Medium",
+        "details": "Pain in the arms during activity due to reduced blood flow."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Angiography (MRA/CTA)",
+        "is_gold_standard": true,
+        "purpose": "Shows narrowing, occlusion, or aneurysms in the aorta and large vessels."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Corticosteroids / Immunosuppressants",
+        "confidence_efficacy": "High",
+        "details": "Drugs like Methotrexate to control the immune system inflammation."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Bypass Surgery",
+        "confidence_efficacy": "Medium",
+        "details": "Required if an artery becomes critically blocked, but only performed when inflammation is controlled."
+      }
+    ]
+  },
+  {
+    "disease_name": "Commotio Cordis",
+    "description": "Sudden cardiac arrest caused by a blunt impact to the chest (like a baseball or hockey puck) at a precise moment in the heart's electrical cycle (ICD-10: S26.91). It happens without structural damage to the heart.",
+    "symptoms": [
+      {
+        "symptom": "Immediate Collapse",
+        "confidence_indicator": "High",
+        "details": "Occurs instantaneously after the impact."
+      },
+      {
+        "symptom": "Ventricular Fibrillation",
+        "confidence_indicator": "High",
+        "details": "The impact triggers chaotic electrical activity."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Diagnosis of Exclusion",
+        "is_gold_standard": true,
+        "purpose": "Confirmed by witnessing the event and finding no structural damage on autopsy or imaging."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Immediate Defibrillation",
+        "confidence_efficacy": "High",
+        "details": "Survival depends entirely on how quickly an AED is used (within minutes)."
+      }
+    ]
+  },
+  {
+    "disease_name": "Transient Ischemic Attack (TIA)",
+    "description": "A temporary period of symptoms similar to those of a stroke (ICD-10: G45.9). A TIA usually lasts only a few minutes and causes no permanent damage, but is a major warning sign of an impending stroke.",
+    "symptoms": [
+      {
+        "symptom": "Sudden Weakness/Numbness",
+        "confidence_indicator": "High",
+        "details": "Typically on one side of the body, resolving fully within 24 hours."
+      },
+      {
+        "symptom": "Slurred Speech",
+        "confidence_indicator": "High",
+        "details": "Temporary difficulty speaking or understanding."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "MRI Brain (DWI sequence)",
+        "is_gold_standard": true,
+        "purpose": "To confirm there is NO permanent tissue death (infarction), distinguishing TIA from stroke."
+      },
+      {
+        "procedure": "Carotid Ultrasound",
+        "is_gold_standard": false,
+        "purpose": "checks for plaque in the neck arteries that may have thrown the clot."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Antiplatelets (Aspirin/Clopidogrel)",
+        "confidence_efficacy": "High",
+        "details": "Started immediately to prevent a full stroke."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Carotid Endarterectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgery to clean out the carotid artery if it is significantly narrowed."
+      }
+    ]
+  },
+  {
+    "disease_name": "Subarachnoid Hemorrhage (SAH)",
+    "description": "Bleeding into the space between the brain and the surrounding membrane (ICD-10: I60.9). It is usually caused by a ruptured berry aneurysm.",
+    "symptoms": [
+      {
+        "symptom": "Thunderclap Headache",
+        "confidence_indicator": "High",
+        "details": "Sudden onset of the 'worst headache of life'."
+      },
+      {
+        "symptom": "Photophobia",
+        "confidence_indicator": "Medium",
+        "details": "Extreme sensitivity to light."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Non-Contrast CT Head",
+        "is_gold_standard": true,
+        "purpose": "Shows fresh blood (white) in the cisterns/sulci of the brain."
+      },
+      {
+        "procedure": "Lumbar Puncture",
+        "is_gold_standard": true,
+        "purpose": "Used if CT is negative; detects xanthochromia (yellow spinal fluid from broken down blood)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Surgical Clipping / Endovascular Coiling",
+        "confidence_efficacy": "High",
+        "details": "Securing the aneurysm to prevent re-bleeding."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Nimodipine",
+        "confidence_efficacy": "High",
+        "details": "A calcium channel blocker used specifically to prevent vasospasm in brain arteries after the bleed."
+      }
+    ]
+  },
+  {
+    "disease_name": "Syphilitic Aortitis",
+    "description": "A complication of tertiary syphilis where the bacteria infect the aorta (ICD-10: A52.0). It causes a 'tree bark' appearance of the aorta and can lead to aneurysms or aortic regurgitation.",
+    "symptoms": [
+      {
+        "symptom": "Chest Pain",
+        "confidence_indicator": "Medium",
+        "details": "Due to aneurysm expansion or compression of surrounding structures."
+      },
+      {
+        "symptom": "Linear Calcification",
+        "confidence_indicator": "Medium",
+        "details": "Visible on X-ray in the ascending aorta."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "VDRL / RPR / FTA-ABS",
+        "is_gold_standard": true,
+        "purpose": "Serologic tests to confirm history of syphilis infection."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Penicillin G",
+        "confidence_efficacy": "High",
+        "details": "High-dose antibiotics to kill the bacteria, though it cannot reverse existing structural damage."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Aortic Root Replacement",
+        "confidence_efficacy": "High",
+        "details": "Surgery required if the aneurysm becomes large or the valve fails."
+      }
+    ]
+  },
+  {
+    "disease_name": "Superior Vena Cava (SVC) Syndrome",
+    "description": "Obstruction of blood flow through the SVC (the vein carrying blood from the head to the heart) (ICD-10: I87.1). It is most commonly caused by lung cancer compressing the vein.",
+    "symptoms": [
+      {
+        "symptom": "Facial Swelling/Edema",
+        "confidence_indicator": "High",
+        "details": "Swelling of the face, neck, and arms, often worse in the morning."
+      },
+      {
+        "symptom": "Dilated Chest Veins",
+        "confidence_indicator": "High",
+        "details": "Visible collateral veins across the chest trying to bypass the blockage."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "CT Chest with Contrast",
+        "is_gold_standard": true,
+        "purpose": "Identifies the location of the blockage and the underlying cause (mass/thrombus)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Endovascular Stenting",
+        "confidence_efficacy": "High",
+        "details": "Placing a stent in the vein to open it up and provide immediate relief."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Radiation/Chemotherapy",
+        "confidence_efficacy": "Medium",
+        "details": "To shrink the tumor compressing the vein."
+      }
+    ]
+  },
+  {
+    "disease_name": "Myocardial Contusion",
+    "description": "Bruising of the heart muscle caused by blunt trauma, such as a steering wheel impact in a car accident (ICD-10: S26.0). It can cause cell death similar to a heart attack.",
+    "symptoms": [
+      {
+        "symptom": "Chest Pain (Traumatic)",
+        "confidence_indicator": "High",
+        "details": "Pain unrelated to rib fractures, often persistent."
+      },
+      {
+        "symptom": "Arrhythmias",
+        "confidence_indicator": "Medium",
+        "details": "Irregular heartbeats caused by trauma to the conduction system."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Troponin Levels",
+        "is_gold_standard": false,
+        "purpose": "Elevated enzymes indicate heart muscle injury."
+      },
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows wall motion abnormalities in the bruised area."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Cardiac Monitoring",
+        "confidence_efficacy": "High",
+        "details": "Observation for 24-48 hours to treat any arrhythmias that arise."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Analgesics",
+        "confidence_efficacy": "High",
+        "details": "Pain management to ensure the patient can breathe deeply."
+      }
+    ]
+  },
+  {
+    "disease_name": "Varicose Veins",
+    "description": "Gnarled, enlarged veins, most commonly appearing in the legs and feet (ICD-10: I83.9). They occur when the valves in the veins become weak or damaged, allowing blood to pool backward.",
+    "symptoms": [
+      {
+        "symptom": "Bulging Veins",
+        "confidence_indicator": "High",
+        "details": "Veins that are dark purple or blue and appear twisted and bulging like cords."
+      },
+      {
+        "symptom": "Heavy Legs",
+        "confidence_indicator": "Medium",
+        "details": "An achy or heavy feeling in the legs, often worse after standing for a long time."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Duplex Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the blood flow in the veins and identifies incompetent valves (reflux)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Endothermal Ablation",
+        "confidence_efficacy": "High",
+        "details": "Using heat (laser or radiofrequency) to seal the affected vein shut."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Compression Stockings",
+        "confidence_efficacy": "Medium",
+        "details": "Squeezes the legs to help veins and leg muscles move blood more efficiently."
+      }
+    ]
+  },
+  {
+    "disease_name": "Chronic Venous Insufficiency (CVI)",
+    "description": "A long-term condition where the veins in the leg cannot pump enough blood back to the heart (ICD-10: I87.2). It is a progression of valve damage often leading to skin changes.",
+    "symptoms": [
+      {
+        "symptom": "Venous Stasis Ulcers",
+        "confidence_indicator": "High",
+        "details": "Open sores usually near the ankle that are difficult to heal."
+      },
+      {
+        "symptom": "Hyperpigmentation",
+        "confidence_indicator": "High",
+        "details": "Brownish discoloration of the skin on the lower legs (hemosiderin staining)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Venous Duplex Scan",
+        "is_gold_standard": true,
+        "purpose": "Maps the deep and superficial venous systems to locate reflux."
+      },
+      {
+        "procedure": "Ankle-Brachial Index (ABI)",
+        "is_gold_standard": false,
+        "purpose": "Performed to rule out arterial disease before applying compression therapy."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Leg Elevation",
+        "confidence_efficacy": "Medium",
+        "details": "Raising legs above heart level to use gravity to drain the blood."
+      },
+      {
+        "treatment_type": "Cure",
+        "treatment": "Vein Stripping/Ligation",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the damaged vein (saphenous vein) in severe cases."
+      }
+    ]
+  },
+  {
+    "disease_name": "Marfan Syndrome",
+    "description": "A genetic disorder that affects the body's connective tissue (ICD-10: Q87.4). The most dangerous complication is weakness of the aorta, leading to aneurysm or dissection.",
+    "symptoms": [
+      {
+        "symptom": "Marfanoid Habitus",
+        "confidence_indicator": "High",
+        "details": "Tall and thin build with disproportionately long arms, legs, and fingers (arachnodactyly)."
+      },
+      {
+        "symptom": "Lens Dislocation",
+        "confidence_indicator": "Medium",
+        "details": "The lens of the eye shifts out of place (ectopia lentis)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Genetic Testing (FBN1)",
+        "is_gold_standard": true,
+        "purpose": "Identifies the mutation in the Fibrillin-1 gene."
+      },
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": false,
+        "purpose": "Measures the diameter of the aortic root (Z-score)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Beta Blockers / ARBs",
+        "confidence_efficacy": "High",
+        "details": "Slows the growth of the aortic aneurysm by reducing hemodynamic stress."
+      },
+      {
+        "treatment_type": "Prophylaxis",
+        "treatment": "Prophylactic Aortic Root Replacement",
+        "confidence_efficacy": "High",
+        "details": "Surgery performed when the aorta reaches 5.0 cm to prevent rupture."
+      }
+    ]
+  },
+  {
+    "disease_name": "Lymphedema",
+    "description": "Swelling that generally occurs in one of the arms or legs (ICD-10: I89.0). It is caused by a blockage in the lymphatic system, often after cancer surgery or radiation.",
+    "symptoms": [
+      {
+        "symptom": "Unilateral Swelling",
+        "confidence_indicator": "High",
+        "details": "Persistent swelling in one limb that may include the fingers or toes."
+      },
+      {
+        "symptom": "Fibrosis",
+        "confidence_indicator": "Medium",
+        "details": "Hardening and thickening of the skin in the affected area."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Lymphoscintigraphy",
+        "is_gold_standard": true,
+        "purpose": "Nuclear medicine imaging to visualize the flow of lymph fluid and blockages."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Complete Decongestive Therapy (CDT)",
+        "confidence_efficacy": "High",
+        "details": "A combination of manual lymph drainage massage, bandaging, and exercise."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Compression Garments",
+        "confidence_efficacy": "High",
+        "details": "Sleeves or stockings worn daily to prevent fluid re-accumulation."
+      }
+    ]
+  },
+  {
+    "disease_name": "Superficial Thrombophlebitis",
+    "description": "Inflammation and clotting in a vein just under the skin (ICD-10: I80.0). Unlike DVT, it rarely causes serious complications like pulmonary embolism.",
+    "symptoms": [
+      {
+        "symptom": "Palpable Cord",
+        "confidence_indicator": "High",
+        "details": "The vein feels like a hard, tender cord under the skin."
+      },
+      {
+        "symptom": "Redness and Warmth",
+        "confidence_indicator": "High",
+        "details": "Localized erythema tracking along the path of the vein."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Physical Examination",
+        "is_gold_standard": false,
+        "purpose": "Usually diagnosed clinically by the appearance and feel of the vein."
+      },
+      {
+        "procedure": "Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "Used to ensure the clot does not extend into the deep venous system."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "NSAIDs / Warm Compresses",
+        "confidence_efficacy": "High",
+        "details": "Reduces inflammation and pain while the body breaks down the clot naturally."
+      }
+    ]
+  },
+  {
+    "disease_name": "Buerger's Disease (Thromboangiitis Obliterans)",
+    "description": "A rare disease of the arteries and veins in the arms and legs (ICD-10: I73.1). Blood vessels become inflamed, swell, and can become blocked with clots. It is strongly linked to tobacco use.",
+    "symptoms": [
+      {
+        "symptom": "Digital Gangrene",
+        "confidence_indicator": "High",
+        "details": "Tissue death (blackening) of the fingertips or toes."
+      },
+      {
+        "symptom": "Claudication in Hands/Feet",
+        "confidence_indicator": "High",
+        "details": "Pain in the arch of the foot or palm of the hand during activity."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Angiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows 'corkscrew' collateral vessels bypassing the occlusions."
+      },
+      {
+        "procedure": "Allen's Test",
+        "is_gold_standard": false,
+        "purpose": "Bedside test showing delayed blood flow return to the hand."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Complete Smoking Cessation",
+        "confidence_efficacy": "High",
+        "details": "The only effective way to stop the disease progression. Even one cigarette can trigger a flare."
+      }
+    ]
+  },
+  {
+    "disease_name": "Ebstein's Anomaly",
+    "description": "A congenital heart defect where the tricuspid valve sits lower than normal in the right ventricle (ICD-10: Q22.5). This makes the right atrium large and the ventricle small.",
+    "symptoms": [
+      {
+        "symptom": "Cyanosis",
+        "confidence_indicator": "Medium",
+        "details": "Blue skin coloration if there is a right-to-left shunt (hole) present."
+      },
+      {
+        "symptom": "Arrhythmias (WPW)",
+        "confidence_indicator": "High",
+        "details": "Fast heartbeats are very common due to accessory electrical pathways."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Shows the apical displacement of the septal tricuspid leaflet."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Cone Reconstruction Surgery",
+        "confidence_efficacy": "High",
+        "details": "A specialized surgery to reshape the patient's own tissues into a functioning valve."
+      }
+    ]
+  },
+  {
+    "disease_name": "Eisenmenger Syndrome",
+    "description": "A long-term complication of an uncorrected congenital heart defect (like VSD) (ICD-10: I27.8). High blood flow eventually causes severe pulmonary hypertension, reversing the shunt from left-to-right to right-to-left.",
+    "symptoms": [
+      {
+        "symptom": "Cyanosis",
+        "confidence_indicator": "High",
+        "details": "Permanent blue tint to skin due to oxygen-poor blood mixing into the system."
+      },
+      {
+        "symptom": "Digital Clubbing",
+        "confidence_indicator": "High",
+        "details": "Rounding and enlargement of the fingertips and nails."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Cardiac Catheterization",
+        "is_gold_standard": true,
+        "purpose": "Confirms irreversible pulmonary vascular disease (high resistance)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Heart-Lung Transplant",
+        "confidence_efficacy": "High",
+        "details": "The only cure once the pulmonary vasculature is permanently damaged."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Pulmonary Vasodilators",
+        "confidence_efficacy": "Medium",
+        "details": "Meds to lower lung pressure and improve quality of life."
+      }
+    ]
+  },
+  {
+    "disease_name": "Hypoplastic Left Heart Syndrome (HLHS)",
+    "description": "A severe congenital defect where the left side of the heart is critically underdeveloped (ICD-10: Q23.4). The heart cannot pump oxygen-rich blood to the body effectively.",
+    "symptoms": [
+      {
+        "symptom": "Shock (in newborns)",
+        "confidence_indicator": "High",
+        "details": "Cold, clammy skin, weak pulse, and rapid breathing shortly after the ductus arteriosus closes."
+      },
+      {
+        "symptom": "Ashen Skin Color",
+        "confidence_indicator": "High",
+        "details": "Grayish or blue skin tone indicating poor perfusion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Fetal Echocardiogram",
+        "is_gold_standard": true,
+        "purpose": "Diagnosed prenatally by seeing the small left ventricle and aorta."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Norwood Procedure (Stage 1)",
+        "confidence_efficacy": "High",
+        "details": "First of three open-heart surgeries to reconstruct the aorta and make the right ventricle pump to the body."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Fontan Procedure (Stage 3)",
+        "confidence_efficacy": "High",
+        "details": "The final surgery (around age 2-3) to separate oxygen-rich and oxygen-poor blood."
+      }
+    ]
+  },
+  {
+    "disease_name": "Ehlers-Danlos Syndrome (Vascular Type)",
+    "description": "A genetic disorder of connective tissue caused by defects in collagen (Type IV) (ICD-10: Q79.6). It is the most severe form, causing fragile arteries and organs that are prone to rupture.",
+    "symptoms": [
+      {
+        "symptom": "Thin, Translucent Skin",
+        "confidence_indicator": "High",
+        "details": "Veins are clearly visible through the skin, particularly on the chest."
+      },
+      {
+        "symptom": "Easy Bruising",
+        "confidence_indicator": "High",
+        "details": "Severe bruising without significant trauma."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Genetic Testing (COL3A1)",
+        "is_gold_standard": true,
+        "purpose": "Confirms the mutation in the type III procollagen gene."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Celiprolol",
+        "confidence_efficacy": "Medium",
+        "details": "A specific beta-blocker shown to reduce the rate of arterial rupture."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "Annual Arterial Screening",
+        "confidence_efficacy": "High",
+        "details": "Non-invasive imaging to check for aneurysms, avoiding invasive procedures which can tear vessels."
+      }
+    ]
+  },
+  {
+    "disease_name": "Epilepsy",
+    "description": "A central nervous system (neurological) disorder in which brain activity becomes abnormal, causing seizures or periods of unusual behavior, sensations, and sometimes loss of awareness (ICD-10: G40.9).",
+    "symptoms": [
+      {
+        "symptom": "Tonic-Clonic Seizure",
+        "confidence_indicator": "High",
+        "details": "Loss of consciousness followed by muscle stiffening (tonic) and jerking (clonic)."
+      },
+      {
+        "symptom": "Aura",
+        "confidence_indicator": "Medium",
+        "details": "A warning sensation (smell, déjà vu, or visual disturbance) occurring before a seizure."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Electroencephalogram (EEG)",
+        "is_gold_standard": true,
+        "purpose": "Records electrical activity of the brain to detect spike-and-wave patterns characteristic of seizures."
+      },
+      {
+        "procedure": "MRI Brain",
+        "is_gold_standard": false,
+        "purpose": "Used to find structural causes like tumors or scar tissue (sclerosis)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Antiepileptic Drugs (AEDs)",
+        "confidence_efficacy": "High",
+        "details": "Medications like Levetiracetam or Lamotrigine stabilize electrical activity."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Resective Surgery",
+        "confidence_efficacy": "High",
+        "details": "Removing the specific area of the brain generating the seizures (focal resection) if meds fail."
+      }
+    ]
+  },
+  {
+    "disease_name": "Multiple Sclerosis (MS)",
+    "description": "An autoimmune disease where the immune system attacks the protective sheath (myelin) that covers nerve fibers (ICD-10: G35). This causes communication problems between the brain and the body.",
+    "symptoms": [
+      {
+        "symptom": "Optic Neuritis",
+        "confidence_indicator": "High",
+        "details": "Painful vision loss in one eye, often the first symptom."
+      },
+      {
+        "symptom": "Lhermitte's Sign",
+        "confidence_indicator": "Medium",
+        "details": "An electric shock sensation that runs down the neck and back when bending the neck forward."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "MRI Brain/Spine with Contrast",
+        "is_gold_standard": true,
+        "purpose": "Shows active lesions (plaques) appearing as bright spots."
+      },
+      {
+        "procedure": "Lumbar Puncture (Spinal Tap)",
+        "is_gold_standard": false,
+        "purpose": "Detects oligoclonal bands (proteins) in the spinal fluid."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Ocrelizumab (B-cell depletion)",
+        "confidence_efficacy": "High",
+        "details": "High-efficacy infusion therapy to prevent relapses and slow progression."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Corticosteroids",
+        "confidence_efficacy": "High",
+        "details": "Used acutely to shorten the duration of a flare-up."
+      }
+    ]
+  },
+  {
+    "disease_name": "Parkinson's Disease",
+    "description": "A progressive disorder that affects the nervous system and the parts of the body controlled by the nerves (ICD-10: G20). It is caused by a loss of neurons that produce dopamine.",
+    "symptoms": [
+      {
+        "symptom": "Resting Tremor",
+        "confidence_indicator": "High",
+        "details": "Shaking that occurs when the hand is relaxed ('pill-rolling tremor')."
+      },
+      {
+        "symptom": "Bradykinesia",
+        "confidence_indicator": "High",
+        "details": "Slowness of movement and loss of automatic movements (like blinking or swinging arms)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "DaTscan (Dopamine Transporter Scan)",
+        "is_gold_standard": true,
+        "purpose": "Imaging that visualizes the dopamine system in the brain to confirm degeneration."
+      },
+      {
+        "procedure": "Levodopa Challenge",
+        "is_gold_standard": false,
+        "purpose": "Significant improvement in symptoms after taking medication supports the diagnosis."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Carbidopa-Levodopa",
+        "confidence_efficacy": "High",
+        "details": "The most effective drug; the body converts it into dopamine to replace what is lost."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Deep Brain Stimulation (DBS)",
+        "confidence_efficacy": "High",
+        "details": "Surgical implantation of electrodes to regulate abnormal brain impulses."
+      }
+    ]
+  },
+  {
+    "disease_name": "Amyotrophic Lateral Sclerosis (ALS)",
+    "description": "A progressive nervous system disease that affects nerve cells in the brain and spinal cord, causing loss of muscle control (ICD-10: G12.21). Often called Lou Gehrig's disease.",
+    "symptoms": [
+      {
+        "symptom": "Muscle Weakness",
+        "confidence_indicator": "High",
+        "details": "Often starts in hands (dropping things) or feet (tripping), spreading to the rest of the body."
+      },
+      {
+        "symptom": "Fasciculations",
+        "confidence_indicator": "High",
+        "details": "Persistent muscle twitching, visible under the skin."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Electromyography (EMG)",
+        "is_gold_standard": true,
+        "purpose": "Detects electrical activity of muscles; shows widespread denervation."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Riluzole",
+        "confidence_efficacy": "Low",
+        "details": "Can extend survival by a few months but does not reverse damage."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Non-Invasive Ventilation (BiPAP)",
+        "confidence_efficacy": "High",
+        "details": "Helps with breathing as diaphragm muscles weaken, improving quality of life."
+      }
+    ]
+  },
+  {
+    "disease_name": "Bacterial Meningitis",
+    "description": "A serious infection of the fluid and membranes (meninges) surrounding the brain and spinal cord (ICD-10: G00.9). It is a medical emergency.",
+    "symptoms": [
+      {
+        "symptom": "Nuchal Rigidity",
+        "confidence_indicator": "High",
+        "details": "Stiff neck; inability to touch chin to chest."
+      },
+      {
+        "symptom": "Photophobia/Phonophobia",
+        "confidence_indicator": "High",
+        "details": "Painful sensitivity to light and loud noises."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Lumbar Puncture (CSF Analysis)",
+        "is_gold_standard": true,
+        "purpose": "Shows low glucose, high protein, and high white blood cell count in spinal fluid."
+      },
+      {
+        "procedure": "Brudzinski's Sign",
+        "is_gold_standard": false,
+        "purpose": "Physical exam sign: lifting the head causes knees to flex involuntarily."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "IV Antibiotics (Ceftriaxone + Vancomycin)",
+        "confidence_efficacy": "High",
+        "details": "Started immediately, often before confirmatory tests, to prevent death or brain damage."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Dexamethasone",
+        "confidence_efficacy": "Medium",
+        "details": "Steroid given to reduce brain swelling and hearing loss complications."
+      }
+    ]
+  },
+  {
+    "disease_name": "Migraine",
+    "description": "A neurological condition characterized by intense, debilitating headaches (ICD-10: G43.9). It involves abnormal brain activity affecting nerve signals, chemicals, and blood vessels.",
+    "symptoms": [
+      {
+        "symptom": "Unilateral Pulsating Pain",
+        "confidence_indicator": "High",
+        "details": "Throbbing pain usually confined to one side of the head."
+      },
+      {
+        "symptom": "Prodrome",
+        "confidence_indicator": "Medium",
+        "details": "Subtle changes 1-2 days before the attack, such as mood swings or food cravings."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Clinical History",
+        "is_gold_standard": true,
+        "purpose": "Diagnosis is based on the pattern of attacks (at least 5 attacks lasting 4-72 hours)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Triptans (Sumatriptan)",
+        "confidence_efficacy": "High",
+        "details": "Abortive medication taken at onset to block pain pathways."
+      },
+      {
+        "treatment_type": "Prevention",
+        "treatment": "CGRP Inhibitors",
+        "confidence_efficacy": "High",
+        "details": "Newer class of drugs (monoclonal antibodies) that prevent migraines by blocking a specific protein."
+      }
+    ]
+  },
+  {
+    "disease_name": "Guillain-Barré Syndrome (GBS)",
+    "description": "A rare disorder where the body's immune system attacks the nerves (ICD-10: G61.0). Weakness and tingling in the extremities are usually the first symptoms.",
+    "symptoms": [
+      {
+        "symptom": "Ascending Paralysis",
+        "confidence_indicator": "High",
+        "details": "Weakness starting in the feet and legs and spreading to the upper body and arms."
+      },
+      {
+        "symptom": "Areflexia",
+        "confidence_indicator": "High",
+        "details": "Total loss of deep tendon reflexes (e.g., knee jerk)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Lumbar Puncture",
+        "is_gold_standard": true,
+        "purpose": "Shows 'albuminocytologic dissociation' (high protein with normal cell count)."
+      },
+      {
+        "procedure": "Nerve Conduction Studies",
+        "is_gold_standard": true,
+        "purpose": "Shows slowing of nerve signals indicating demyelination."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Plasma Exchange (Plasmapheresis)",
+        "confidence_efficacy": "High",
+        "details": "Filtering the blood to remove the antibodies attacking the nerves."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "IVIG",
+        "confidence_efficacy": "High",
+        "details": "Intravenous immunoglobulin to block the damaging antibodies."
+      }
+    ]
+  },
+  {
+    "disease_name": "Huntington's Disease",
+    "description": "A rare, inherited disease that causes the progressive breakdown (degeneration) of nerve cells in the brain (ICD-10: G10). It has a broad impact on functional abilities.",
+    "symptoms": [
+      {
+        "symptom": "Chorea",
+        "confidence_indicator": "High",
+        "details": "Involuntary jerking or writhing movements."
+      },
+      {
+        "symptom": "Cognitive Decline",
+        "confidence_indicator": "High",
+        "details": "Difficulty focusing, impulsivity, and lack of awareness of one's own behaviors."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Genetic Testing (CAG Repeat)",
+        "is_gold_standard": true,
+        "purpose": "Counts the CAG repeats in the HTT gene. >40 repeats confirms the disease."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Tetrabenazine",
+        "confidence_efficacy": "Medium",
+        "details": "Suppresses the involuntary jerking and writhing movements (chorea)."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Psychotherapy/Speech Therapy",
+        "confidence_efficacy": "Medium",
+        "details": "Essential for managing the behavioral and communication decline."
+      }
+    ]
+  },
+  {
+    "disease_name": "Intracerebral Hemorrhage (Hemorrhagic Stroke)",
+    "description": "Bleeding within the brain tissue itself, usually caused by uncontrolled high blood pressure (ICD-10: I61.9). It is more deadly than ischemic stroke.",
+    "symptoms": [
+      {
+        "symptom": "Rapidly Decreasing Consciousness",
+        "confidence_indicator": "High",
+        "details": "Drowsiness progressing to coma as pressure in the skull increases."
+      },
+      {
+        "symptom": "Vomiting",
+        "confidence_indicator": "Medium",
+        "details": "Common sign of increased intracranial pressure (ICP)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Non-Contrast CT Head",
+        "is_gold_standard": true,
+        "purpose": "Immediately shows bright white area (blood) in the brain tissue."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Blood Pressure Control",
+        "confidence_efficacy": "High",
+        "details": "IV meds (Nicardipine) to rapidly lower BP and prevent the bleed from growing."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Surgical Decompression",
+        "confidence_efficacy": "Variable",
+        "details": "Removing the blood clot (hematoma) or part of the skull to relieve pressure if life-threatening."
+      }
+    ]
+  },
+  {
+    "disease_name": "Normal Pressure Hydrocephalus (NPH)",
+    "description": "An accumulation of cerebrospinal fluid (CSF) that causes the ventricles in the brain to enlarge (ICD-10: G91.2). It typically affects older adults.",
+    "symptoms": [
+      {
+        "symptom": "Triad of Symptoms (Hakim's Triad)",
+        "confidence_indicator": "High",
+        "details": "Gait disturbance (magnetic gait), urinary incontinence, and dementia/confusion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "MRI Brain",
+        "is_gold_standard": true,
+        "purpose": "Shows enlarged ventricles out of proportion to brain atrophy."
+      },
+      {
+        "procedure": "High-Volume Lumbar Puncture",
+        "is_gold_standard": false,
+        "purpose": "Removing 30-50ml of CSF to see if symptoms (walking) temporarily improve."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Ventriculoperitoneal (VP) Shunt",
+        "confidence_efficacy": "High",
+        "details": "Surgically placing a tube to drain excess fluid from the brain to the abdomen. Often reverses symptoms."
+      }
+    ]
+  },
+  {
+    "disease_name": "Community-Acquired Pneumonia",
+    "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus (ICD-10: J15.9). It is acquired outside of a hospital setting.",
+    "symptoms": [
+      {
+        "symptom": "Productive Cough",
+        "confidence_indicator": "High",
+        "details": "Coughing up phlegm (sputum) that may be green, yellow, or bloody."
+      },
+      {
+        "symptom": "Pleuritic Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Sharp chest pain that worsens when breathing deeply or coughing."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Chest X-Ray",
+        "is_gold_standard": true,
+        "purpose": "Shows 'consolidation' (white patches) where the air sacs are filled with fluid."
+      },
+      {
+        "procedure": "Sputum Culture",
+        "is_gold_standard": false,
+        "purpose": "Identifies the specific bacteria (e.g., Streptococcus pneumoniae) to guide antibiotic choice."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Antibiotics (Amoxicillin/Azithromycin)",
+        "confidence_efficacy": "High",
+        "details": "Empiric therapy is started immediately to kill the bacteria."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Antipyretics",
+        "confidence_efficacy": "High",
+        "details": "Medications like Acetaminophen to manage fever and muscle pain."
+      }
+    ]
+  },
+  {
+    "disease_name": "Obstructive Sleep Apnea (OSA)",
+    "description": "A sleep disorder where throat muscles intermittently relax and block the airway during sleep (ICD-10: G47.33). It causes breathing to repeatedly stop and start.",
+    "symptoms": [
+      {
+        "symptom": "Loud Snoring",
+        "confidence_indicator": "High",
+        "details": "Often punctuated by gasping or choking sounds."
+      },
+      {
+        "symptom": "Excessive Daytime Sleepiness",
+        "confidence_indicator": "High",
+        "details": "Falling asleep during routine activities due to fragmented sleep architecture."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Polysomnography (Sleep Study)",
+        "is_gold_standard": true,
+        "purpose": "Records brain waves, oxygen levels, and heart rate during sleep to count apnea events (AHI score)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "CPAP Therapy",
+        "confidence_efficacy": "High",
+        "details": "Continuous Positive Airway Pressure machine delivers air pressure to keep the airway open."
+      },
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "Weight Loss",
+        "confidence_efficacy": "Medium",
+        "details": "Reducing neck circumference can significantly decrease the severity of obstruction."
+      }
+    ]
+  },
+  {
+    "disease_name": "Cystic Fibrosis",
+    "description": "A genetic disorder that affects the cells that produce mucus, sweat, and digestive juices (ICD-10: E84.0). These secreted fluids become thick and sticky, plugging up tubes, ducts, and passageways, especially in the lungs.",
+    "symptoms": [
+      {
+        "symptom": "Salty Skin",
+        "confidence_indicator": "High",
+        "details": "Parents often taste salt when kissing the child's skin."
+      },
+      {
+        "symptom": "Steatorrhea",
+        "confidence_indicator": "High",
+        "details": "Greasy, bulky stools due to blocked pancreatic enzymes preventing fat digestion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Sweat Chloride Test",
+        "is_gold_standard": true,
+        "purpose": "Measures the concentration of salt in sweat; high levels confirm the diagnosis."
+      },
+      {
+        "procedure": "Genetic Testing (CFTR)",
+        "is_gold_standard": true,
+        "purpose": "Identifies specific mutations (e.g., Delta F508) to guide targeted therapy."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "CFTR Modulators (Trikafta)",
+        "confidence_efficacy": "High",
+        "details": "Drugs that help the defective protein function more effectively, transforming prognosis."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Chest Physiotherapy",
+        "confidence_efficacy": "High",
+        "details": "Vibrating vests or manual percussion to help loosen and cough up thick mucus."
+      }
+    ]
+  },
+  {
+    "disease_name": "Idiopathic Pulmonary Fibrosis (IPF)",
+    "description": "A chronic disease where the tissue deep in the lungs becomes thick and stiff (scarred) for unknown reasons (ICD-10: J84.112). This makes it harder for the lungs to work and get oxygen into the bloodstream.",
+    "symptoms": [
+      {
+        "symptom": "Dry, Hacking Cough",
+        "confidence_indicator": "High",
+        "details": "A persistent cough that does not produce mucus."
+      },
+      {
+        "symptom": "Digital Clubbing",
+        "confidence_indicator": "Medium",
+        "details": "Widening and rounding of the tips of the fingers and toes due to chronic low oxygen."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "High-Resolution CT Scan (HRCT)",
+        "is_gold_standard": true,
+        "purpose": "Shows a characteristic 'honeycombing' pattern in the lungs, often avoiding the need for biopsy."
+      },
+      {
+        "procedure": "Pulmonary Function Tests (PFTs)",
+        "is_gold_standard": false,
+        "purpose": "Shows a 'restrictive' pattern (reduced lung volume) with low diffusion capacity (DLCO)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Antifibrotics (Nintedanib)",
+        "confidence_efficacy": "Medium",
+        "details": "Slows the rate of lung function decline but does not reverse scarring."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Lung Transplant",
+        "confidence_efficacy": "High",
+        "details": "The only option to restore lung function in advanced disease."
+      }
+    ]
+  },
+  {
+    "disease_name": "Pneumothorax",
+    "description": "A collapsed lung (ICD-10: J93.9). It occurs when air leaks into the space between the lung and the chest wall, pushing on the lung and making it collapse.",
+    "symptoms": [
+      {
+        "symptom": "Sudden Chest Pain",
+        "confidence_indicator": "High",
+        "details": "Sharp pain on one side of the chest."
+      },
+      {
+        "symptom": "Diminished Breath Sounds",
+        "confidence_indicator": "High",
+        "details": "A doctor cannot hear air moving in the affected side with a stethoscope."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Chest X-Ray",
+        "is_gold_standard": true,
+        "purpose": "Shows the edge of the collapsed lung and air in the pleural space."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Chest Tube Insertion (Thoracostomy)",
+        "confidence_efficacy": "High",
+        "details": "Inserting a tube to suck the air out and allow the lung to re-expand."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "Observation",
+        "confidence_efficacy": "High",
+        "details": "Small pneumothoraces often heal on their own with supplemental oxygen."
+      }
+    ]
+  },
+  {
+    "disease_name": "Lung Cancer (Non-Small Cell)",
+    "description": "The most common type of lung cancer (ICD-10: C34.9). It originates in the bronchial tubes or lung tissue. Smoking is the primary risk factor.",
+    "symptoms": [
+      {
+        "symptom": "Hemoptysis",
+        "confidence_indicator": "High",
+        "details": "Coughing up blood or rust-colored sputum."
+      },
+      {
+        "symptom": "Unexplained Weight Loss",
+        "confidence_indicator": "Medium",
+        "details": "Loss of appetite and muscle mass."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Biopsy (Bronchoscopy or CT-Guided)",
+        "is_gold_standard": true,
+        "purpose": "Taking a tissue sample to confirm cancer cells and determine the specific type."
+      },
+      {
+        "procedure": "PET-CT Scan",
+        "is_gold_standard": false,
+        "purpose": "Used to stage the cancer by checking if it has spread (metastasized) to other parts of the body."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Lobectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the affected lobe of the lung, curative in early stages."
+      },
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Immunotherapy (Keytruda)",
+        "confidence_efficacy": "Medium",
+        "details": "Uses the body's immune system to attack cancer cells, especially those with high PD-L1 expression."
+      }
+    ]
+  },
+  {
+    "disease_name": "Sarcoidosis",
+    "description": "An inflammatory disease characterized by the growth of tiny collections of inflammatory cells (granulomas) in any part of the body, most commonly the lungs and lymph nodes (ICD-10: D86.0).",
+    "symptoms": [
+      {
+        "symptom": "Dry Cough",
+        "confidence_indicator": "Medium",
+        "details": "Persistent cough without phlegm."
+      },
+      {
+        "symptom": "Erythema Nodosum",
+        "confidence_indicator": "Medium",
+        "details": "Painful, red bumps on the shins, often an early sign."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Tissue Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Reveals 'non-caseating granulomas' (distinct from TB)."
+      },
+      {
+        "procedure": "Chest X-Ray",
+        "is_gold_standard": false,
+        "purpose": "Shows bilateral hilar lymphadenopathy (enlarged lymph nodes in the center of the chest)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Corticosteroids (Prednisone)",
+        "confidence_efficacy": "High",
+        "details": "The main treatment to suppress the immune system and reduce granuloma formation."
+      },
+      {
+        "treatment_type": "Surveillance",
+        "treatment": "No Treatment",
+        "confidence_efficacy": "High",
+        "details": "Many cases resolve spontaneously without medication."
+      }
+    ]
+  },
+  {
+    "disease_name": "Bronchiectasis",
+    "description": "A condition where the lungs' airways become permanently damaged, widened, and thickened (ICD-10: J47). Bacteria and mucus build up and pool in these pockets, leading to frequent infections.",
+    "symptoms": [
+      {
+        "symptom": "Chronic Daily Cough",
+        "confidence_indicator": "High",
+        "details": "Produces large amounts of thick, foul-smelling sputum."
+      },
+      {
+        "symptom": "Recurrent Respiratory Infections",
+        "confidence_indicator": "High",
+        "details": "Frequent bouts of pneumonia requiring antibiotics."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "High-Resolution CT Scan",
+        "is_gold_standard": true,
+        "purpose": "Shows the airways are wider than the accompanying blood vessels ('signet ring' sign)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Airway Clearance Techniques",
+        "confidence_efficacy": "High",
+        "details": "Devices (like Acapella) or percussion to physically mobilize the mucus."
+      },
+      {
+        "treatment_type": "Prevention",
+        "treatment": "Prophylactic Antibiotics",
+        "confidence_efficacy": "Medium",
+        "details": "Long-term use of macrolides to reduce inflammation and infection frequency."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Respiratory Distress Syndrome (ARDS)",
+    "description": "A rapidly progressive disease occurring in critically ill patients (ICD-10: J80). Fluid leaks into the lungs' tiny elastic air sacs, preventing oxygen from getting into the blood.",
+    "symptoms": [
+      {
+        "symptom": "Severe Dyspnea",
+        "confidence_indicator": "High",
+        "details": "Extreme difficulty breathing appearing within hours to days of an injury or infection."
+      },
+      {
+        "symptom": "Hypoxemia",
+        "confidence_indicator": "High",
+        "details": "Dangerously low oxygen levels that do not improve with standard oxygen therapy."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Chest X-Ray",
+        "is_gold_standard": true,
+        "purpose": "Shows widespread 'white-out' of both lungs (bilateral opacities)."
+      },
+      {
+        "procedure": "Arterial Blood Gas (ABG)",
+        "is_gold_standard": true,
+        "purpose": "PaO2/FiO2 ratio < 300 mmHg confirms the diagnosis (Berlin Criteria)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Mechanical Ventilation",
+        "confidence_efficacy": "High",
+        "details": "Using low tidal volumes to protect the lungs while they heal."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Prone Positioning",
+        "confidence_efficacy": "Medium",
+        "details": "Flipping the patient onto their stomach to improve oxygenation."
+      }
+    ]
+  },
+  {
+    "disease_name": "Croup (Laryngotracheobronchitis)",
+    "description": "A viral infection of the upper airway that obstructs breathing and causes a characteristic cough (ICD-10: J05.0). It primarily affects young children.",
+    "symptoms": [
+      {
+        "symptom": "Barking Cough",
+        "confidence_indicator": "High",
+        "details": "A cough that sounds like a seal barking."
+      },
+      {
+        "symptom": "Stridor",
+        "confidence_indicator": "High",
+        "details": "A high-pitched whistling sound when breathing in (inspiration)."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Neck X-Ray",
+        "is_gold_standard": false,
+        "purpose": "May show the 'steeple sign' (narrowing of the trachea), though diagnosis is usually clinical."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Dexamethasone",
+        "confidence_efficacy": "High",
+        "details": "A single dose of steroid reduces swelling in the airway."
+      },
+      {
+        "treatment_type": "Emergency Treatment",
+        "treatment": "Nebulized Epinephrine",
+        "confidence_efficacy": "High",
+        "details": "Used in severe cases to quickly shrink swollen tissue and improve breathing."
+      }
+    ]
+  },
+  {
+    "disease_name": "Peptic Ulcer Disease (PUD)",
+    "description": "Open sores that develop on the inside lining of the stomach and the upper portion of the small intestine (ICD-10: K27). The most common causes are H. pylori infection and long-term use of aspirin/NSAIDs.",
+    "symptoms": [
+      {
+        "symptom": "Burning Stomach Pain",
+        "confidence_indicator": "High",
+        "details": "Pain is often felt between meals or at night; eating may briefly relieve it (duodenal) or worsen it (gastric)."
+      },
+      {
+        "symptom": "Melena",
+        "confidence_indicator": "Medium",
+        "details": "Black, tarry stools indicating bleeding from the upper GI tract."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Upper Endoscopy (EGD)",
+        "is_gold_standard": true,
+        "purpose": "Visualizes the ulcer and allows for biopsy to test for cancer or bacteria."
+      },
+      {
+        "procedure": "Urea Breath Test",
+        "is_gold_standard": true,
+        "purpose": "Non-invasive test specifically for detecting active H. pylori infection."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Triple Therapy",
+        "confidence_efficacy": "High",
+        "details": "A combination of two antibiotics (e.g., Clarithromycin, Amoxicillin) and a PPI to kill the bacteria."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Proton Pump Inhibitors (PPIs)",
+        "confidence_efficacy": "High",
+        "details": "Reduces stomach acid to allow the sore to heal."
+      }
+    ]
+  },
+  {
+    "disease_name": "Crohn's Disease",
+    "description": "A type of inflammatory bowel disease (IBD) that causes inflammation of the digestive tract (ICD-10: K50). Unlike Ulcerative Colitis, it can affect any part of the GI tract and penetrates deep into the tissue layers.",
+    "symptoms": [
+      {
+        "symptom": "Abdominal Pain/Cramping",
+        "confidence_indicator": "High",
+        "details": "Often in the lower right quadrant (ileum)."
+      },
+      {
+        "symptom": "Chronic Diarrhea",
+        "confidence_indicator": "High",
+        "details": "Persistent loose stools, sometimes mixed with blood or mucus."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Colonoscopy with Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Shows 'skip lesions' (patches of disease next to healthy tissue) and granulomas."
+      },
+      {
+        "procedure": "MRE (Magnetic Resonance Enterography)",
+        "is_gold_standard": false,
+        "purpose": "Visualizes the small bowel which is hard to reach with endoscopy."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Biologics (Infliximab)",
+        "confidence_efficacy": "High",
+        "details": "Antibodies that target TNF-alpha to reduce inflammation and induce remission."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Bowel Resection",
+        "confidence_efficacy": "Medium",
+        "details": "Surgery to remove damaged sections, though disease often recurs elsewhere."
+      }
+    ]
+  },
+  {
+    "disease_name": "Liver Cirrhosis",
+    "description": "Late-stage scarring (fibrosis) of the liver caused by many forms of liver diseases, such as hepatitis and chronic alcoholism (ICD-10: K74.60). The liver cannot function or heal itself.",
+    "symptoms": [
+      {
+        "symptom": "Ascites",
+        "confidence_indicator": "High",
+        "details": "Accumulation of fluid in the abdomen making it distended."
+      },
+      {
+        "symptom": "Jaundice",
+        "confidence_indicator": "High",
+        "details": "Yellowing of the skin and eyes due to bilirubin buildup."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Liver Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Examination of tissue to confirm the extent of scarring."
+      },
+      {
+        "procedure": "Elastography (FibroScan)",
+        "is_gold_standard": false,
+        "purpose": "Ultrasound-based test to measure liver stiffness (fibrosis) non-invasively."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Liver Transplant",
+        "confidence_efficacy": "High",
+        "details": "The only cure for end-stage liver failure."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Lactulose",
+        "confidence_efficacy": "Medium",
+        "details": "Reduces ammonia levels in the blood to prevent confusion (encephalopathy)."
+      }
+    ]
+  },
+  {
+    "disease_name": "Cholelithiasis (Gallstones)",
+    "description": "Hardened deposits of digestive fluid (cholesterol or bilirubin) that can form in the gallbladder (ICD-10: K80). Pain occurs if they block the bile ducts.",
+    "symptoms": [
+      {
+        "symptom": "Biliary Colic",
+        "confidence_indicator": "High",
+        "details": "Sudden, intense pain in the upper right abdomen, often after a fatty meal."
+      },
+      {
+        "symptom": "Referred Pain",
+        "confidence_indicator": "Medium",
+        "details": "Pain radiating to the right shoulder blade."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Abdominal Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "Visualizes stones in the gallbladder and any thickening of the wall."
+      },
+      {
+        "procedure": "HIDA Scan",
+        "is_gold_standard": false,
+        "purpose": "Nuclear scan to check gallbladder ejection fraction if ultrasound is unclear."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Laparoscopic Cholecystectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the gallbladder. One of the most common surgeries performed."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Ursodiol",
+        "confidence_efficacy": "Low",
+        "details": "Medication to dissolve small cholesterol stones, used only if surgery isn't an option."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Pancreatitis",
+    "description": "Sudden inflammation of the pancreas (ICD-10: K85). Digestive enzymes become active while still inside the pancreas, irritating the cells and causing inflammation.",
+    "symptoms": [
+      {
+        "symptom": "Epigastric Pain",
+        "confidence_indicator": "High",
+        "details": "Severe upper abdominal pain that radiates straight through to the back."
+      },
+      {
+        "symptom": "Nausea/Vomiting",
+        "confidence_indicator": "High",
+        "details": "Vomiting that does not relieve the pain."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Lipase Blood Test",
+        "is_gold_standard": true,
+        "purpose": "Levels >3x normal limit are diagnostic."
+      },
+      {
+        "procedure": "CT Abdomen",
+        "is_gold_standard": false,
+        "purpose": "Shows swelling of the pancreas and fluid around it."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Bowel Rest (NPO)",
+        "confidence_efficacy": "High",
+        "details": "Stopping solid food intake to stop the pancreas from producing enzymes."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Aggressive IV Fluids",
+        "confidence_efficacy": "High",
+        "details": "Critical to prevent hypovolemic shock and kidney failure."
+      }
+    ]
+  },
+  {
+    "disease_name": "Celiac Disease",
+    "description": "An immune reaction to eating gluten, a protein found in wheat, barley, and rye (ICD-10: K90.0). Over time, the immune reaction damages the small intestine's lining (villi).",
+    "symptoms": [
+      {
+        "symptom": "Bloating and Gas",
+        "confidence_indicator": "High",
+        "details": "Abdominal distension after eating gluten."
+      },
+      {
+        "symptom": "Dermatitis Herpetiformis",
+        "confidence_indicator": "High",
+        "details": "Itchy, blistering skin rash usually on elbows/knees."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Duodenal Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Shows villous atrophy (flattening of the finger-like projections in the gut)."
+      },
+      {
+        "procedure": "tTG-IgA Test",
+        "is_gold_standard": false,
+        "purpose": "Screening blood test for tissue transglutaminase antibodies."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Gluten-Free Diet",
+        "confidence_efficacy": "High",
+        "details": "Strict lifelong avoidance of gluten allows the intestine to heal completely."
+      }
+    ]
+  },
+  {
+    "disease_name": "Hashimoto's Thyroiditis",
+    "description": "An autoimmune disorder affecting the thyroid gland (ICD-10: E06.3). The immune system attacks the thyroid, leading to hypothyroidism (underactive thyroid).",
+    "symptoms": [
+      {
+        "symptom": "Fatigue",
+        "confidence_indicator": "High",
+        "details": "Sluggishness and feeling cold all the time."
+      },
+      {
+        "symptom": "Weight Gain",
+        "confidence_indicator": "Medium",
+        "details": "Unexplained weight gain or difficulty losing weight."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "TPO Antibody Test",
+        "is_gold_standard": true,
+        "purpose": "Detects thyroid peroxidase antibodies, the hallmark of Hashimoto's."
+      },
+      {
+        "procedure": "TSH Level",
+        "is_gold_standard": false,
+        "purpose": "Elevated TSH indicates the pituitary is trying to stimulate a failing thyroid."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Levothyroxine",
+        "confidence_efficacy": "High",
+        "details": "Synthetic hormone replacement taken daily."
+      }
+    ]
+  },
+  {
+    "disease_name": "Graves' Disease",
+    "description": "An immune system disorder that results in the overproduction of thyroid hormones (hyperthyroidism) (ICD-10: E05.0).",
+    "symptoms": [
+      {
+        "symptom": "Exophthalmos",
+        "confidence_indicator": "High",
+        "details": "Bulging eyes caused by inflammation of the muscles behind the eye."
+      },
+      {
+        "symptom": "Tremors/Anxiety",
+        "confidence_indicator": "High",
+        "details": "Fine trembling in hands and feeling jittery."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "TSI Antibody Test",
+        "is_gold_standard": true,
+        "purpose": "Detects thyroid-stimulating immunoglobulins."
+      },
+      {
+        "procedure": "Radioactive Iodine Uptake",
+        "is_gold_standard": false,
+        "purpose": "Shows high, diffuse uptake of iodine by the gland."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Radioactive Iodine (RAI)",
+        "confidence_efficacy": "High",
+        "details": "Destroys the overactive thyroid cells; usually leads to permanent hypothyroidism."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Beta Blockers",
+        "confidence_efficacy": "Medium",
+        "details": "Controls the rapid heart rate and tremors."
+      }
+    ]
+  },
+  {
+    "disease_name": "Addison's Disease (Primary Adrenal Insufficiency)",
+    "description": "A disorder where the adrenal glands produce insufficient amounts of the hormones cortisol and aldosterone (ICD-10: E27.1).",
+    "symptoms": [
+      {
+        "symptom": "Hyperpigmentation",
+        "confidence_indicator": "High",
+        "details": "Darkening of the skin, especially in creases and gums."
+      },
+      {
+        "symptom": "Salt Craving",
+        "confidence_indicator": "High",
+        "details": "Due to low aldosterone and sodium loss."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "ACTH Stimulation Test",
+        "is_gold_standard": true,
+        "purpose": "Measures cortisol response to synthetic ACTH injection. No rise indicates Addison's."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Hydrocortisone + Fludrocortisone",
+        "confidence_efficacy": "High",
+        "details": "Lifelong replacement of the missing steroid hormones."
+      }
+    ]
+  },
+  {
+    "disease_name": "Cushing's Syndrome",
+    "description": "A condition that occurs from exposure to high cortisol levels for a long time (ICD-10: E24.9). It can be caused by tumors or long-term steroid medication use.",
+    "symptoms": [
+      {
+        "symptom": "Moon Face",
+        "confidence_indicator": "High",
+        "details": "Face becomes round and full."
+      },
+      {
+        "symptom": "Buffalo Hump",
+        "confidence_indicator": "Medium",
+        "details": "Fat pad accumulation between the shoulders."
+      },
+      {
+        "symptom": "Purple Striae",
+        "confidence_indicator": "High",
+        "details": "Wide, reddish-purple stretch marks on the abdomen."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Dexamethasone Suppression Test",
+        "is_gold_standard": true,
+        "purpose": "Taking a steroid pill at night and measuring cortisol in the morning. Failure to lower cortisol indicates Cushing's."
+      },
+      {
+        "procedure": "24-Hour Urine Cortisol",
+        "is_gold_standard": false,
+        "purpose": "Measures total cortisol production over a full day."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Transsphenoidal Surgery",
+        "confidence_efficacy": "High",
+        "details": "Removal of the pituitary tumor if that is the cause (Cushing's Disease)."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Ketoconazole",
+        "confidence_efficacy": "Medium",
+        "details": "Medication that inhibits cortisol production."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Lymphoblastic Leukemia (ALL)",
+    "description": "A type of cancer of the blood and bone marrow that affects white blood cells (ICD-10: C91.0). It progresses rapidly and creates immature blood cells rather than mature ones.",
+    "symptoms": [
+      {
+        "symptom": "Easy Bruising/Bleeding",
+        "confidence_indicator": "High",
+        "details": "Due to low platelet counts (thrombocytopenia) as cancer cells crowd out normal marrow."
+      },
+      {
+        "symptom": "Frequent Infections",
+        "confidence_indicator": "High",
+        "details": "The white blood cells produced are abnormal and cannot fight infection."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Bone Marrow Aspiration",
+        "is_gold_standard": true,
+        "purpose": "Shows hypercellular marrow with >20% blasts (immature cells)."
+      },
+      {
+        "procedure": "Complete Blood Count (CBC)",
+        "is_gold_standard": false,
+        "purpose": "Shows anemia, low platelets, and often very high white cell counts."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Chemotherapy (Induction)",
+        "confidence_efficacy": "High",
+        "details": "Aggressive drug regimens (e.g., Vincristine, Prednisone) to kill leukemia cells and restore normal blood production."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Stem Cell Transplant",
+        "confidence_efficacy": "High",
+        "details": "Replacing diseased bone marrow with healthy stem cells from a donor."
+      }
+    ]
+  },
+  {
+    "disease_name": "Prostate Cancer",
+    "description": "Cancer that occurs in the prostate, a small walnut-shaped gland in men (ICD-10: C61). It is one of the most common types of cancer.",
+    "symptoms": [
+      {
+        "symptom": "Urinary Hesitancy",
+        "confidence_indicator": "Medium",
+        "details": "Difficulty starting urination or a weak flow due to the tumor pressing on the urethra."
+      },
+      {
+        "symptom": "Hematuria",
+        "confidence_indicator": "Medium",
+        "details": "Blood in the urine or semen."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Prostate Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Taking tissue samples to determine the Gleason Score (aggressiveness)."
+      },
+      {
+        "procedure": "PSA Test (Prostate-Specific Antigen)",
+        "is_gold_standard": false,
+        "purpose": "Blood test used for screening; elevated levels suggest cancer or inflammation."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Radical Prostatectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the entire prostate gland."
+      },
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Androgen Deprivation Therapy (ADT)",
+        "confidence_efficacy": "High",
+        "details": "Hormone therapy to lower testosterone, which feeds the cancer."
+      }
+    ]
+  },
+  {
+    "disease_name": "Colorectal Cancer",
+    "description": "Cancer that starts in the colon or rectum (ICD-10: C18-C20). It usually begins as small, noncancerous clumps of cells called polyps.",
+    "symptoms": [
+      {
+        "symptom": "Change in Bowel Habits",
+        "confidence_indicator": "High",
+        "details": "Persistent diarrhea, constipation, or narrowing of the stool."
+      },
+      {
+        "symptom": "Rectal Bleeding",
+        "confidence_indicator": "High",
+        "details": "Bright red blood in stool or dark, tarry stools."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "is_gold_standard": true,
+        "purpose": "Visual inspection of the entire colon with the ability to remove polyps or biopsy masses."
+      },
+      {
+        "procedure": "CEA (Carcinoembryonic Antigen)",
+        "is_gold_standard": false,
+        "purpose": "Tumor marker blood test used to monitor response to treatment."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Colectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the cancer and a margin of healthy tissue."
+      },
+      {
+        "treatment_type": "Prevention",
+        "treatment": "Polypectomy",
+        "confidence_efficacy": "High",
+        "details": "Removing polyps during colonoscopy prevents them from turning into cancer."
+      }
+    ]
+  },
+  {
+    "disease_name": "Renal Cell Carcinoma (Kidney Cancer)",
+    "description": "The most common type of kidney cancer in adults (ICD-10: C64). It originates in the lining of the small tubes (tubules) in the kidney.",
+    "symptoms": [
+      {
+        "symptom": "Flank Pain",
+        "confidence_indicator": "Medium",
+        "details": "Pain in the side or back that doesn't go away."
+      },
+      {
+        "symptom": "Hematuria",
+        "confidence_indicator": "High",
+        "details": "Blood in the urine, which may appear pink, red, or cola-colored."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "CT Urogram",
+        "is_gold_standard": true,
+        "purpose": "Multi-phase imaging to distinguish solid masses from cysts."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Nephrectomy",
+        "confidence_efficacy": "High",
+        "details": "Surgical removal of the kidney (radical) or just the tumor (partial)."
+      },
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Targeted Therapy (TKIs)",
+        "confidence_efficacy": "Medium",
+        "details": "Drugs like Sunitinib that block blood vessel growth (angiogenesis) in the tumor."
+      }
+    ]
+  },
+  {
+    "disease_name": "Chronic Kidney Disease (CKD)",
+    "description": "Gradual loss of kidney function over time (ICD-10: N18.9). Common causes are diabetes and high blood pressure. Wastes build up in the body.",
+    "symptoms": [
+      {
+        "symptom": "Edema",
+        "confidence_indicator": "High",
+        "details": "Swelling in feet and ankles due to inability to remove fluid."
+      },
+      {
+        "symptom": "Pruritus",
+        "confidence_indicator": "Medium",
+        "details": "Severe itching caused by high levels of phosphorus in the blood."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "eGFR (Glomerular Filtration Rate)",
+        "is_gold_standard": true,
+        "purpose": "Calculated from blood creatinine; determines the stage of kidney disease (1-5)."
+      },
+      {
+        "procedure": "Urine Albumin-to-Creatinine Ratio",
+        "is_gold_standard": true,
+        "purpose": "Detects protein in the urine, an early sign of kidney damage."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Risk Reduction",
+        "treatment": "ACE Inhibitors / ARBs",
+        "confidence_efficacy": "High",
+        "details": "Lowers pressure inside the kidney filters to slow progression."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Dialysis",
+        "confidence_efficacy": "High",
+        "details": "Filtering blood via a machine (Hemodialysis) when kidneys fail (ESRD)."
+      }
+    ]
+  },
+  {
+    "disease_name": "Nephrolithiasis (Kidney Stones)",
+    "description": "Hard deposits made of minerals and salts that form inside the kidneys (ICD-10: N20.0). Passing them can be extremely painful.",
+    "symptoms": [
+      {
+        "symptom": "Renal Colic",
+        "confidence_indicator": "High",
+        "details": "Severe, fluctuating pain in the side and back, radiating to the groin."
+      },
+      {
+        "symptom": "Urinary Urgency",
+        "confidence_indicator": "Medium",
+        "details": "Persistent need to urinate if the stone is in the lower ureter."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Non-Contrast CT Abdomen/Pelvis",
+        "is_gold_standard": true,
+        "purpose": "Detects almost all types of stones (calcium, uric acid, etc.)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "Lithotripsy (ESWL)",
+        "confidence_efficacy": "High",
+        "details": "Using sound waves to break stones into tiny pieces."
+      },
+      {
+        "treatment_type": "Symptom Management",
+        "treatment": "Tamsulosin",
+        "confidence_efficacy": "Medium",
+        "details": "Relaxes the ureter muscle to help pass the stone more easily."
+      }
+    ]
+  },
+  {
+    "disease_name": "Polycystic Kidney Disease (PKD)",
+    "description": "An inherited disorder where clusters of cysts develop primarily within the kidneys (ICD-10: Q61.3). The cysts cause kidneys to enlarge and lose function over time.",
+    "symptoms": [
+      {
+        "symptom": "Hypertension",
+        "confidence_indicator": "High",
+        "details": "High blood pressure is often the first sign."
+      },
+      {
+        "symptom": "Abdominal Distension",
+        "confidence_indicator": "High",
+        "details": "Visible enlargement of the abdomen due to massive kidney size."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Renal Ultrasound",
+        "is_gold_standard": true,
+        "purpose": "Visualizes multiple cysts in both kidneys."
+      },
+      {
+        "procedure": "Genetic Testing (PKD1/PKD2)",
+        "is_gold_standard": true,
+        "purpose": "Confirms the specific gene mutation."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Tolvaptan",
+        "confidence_efficacy": "Medium",
+        "details": "Slows cyst growth and decline in kidney function."
+      },
+      {
+        "treatment_type": "Definitive Treatment",
+        "treatment": "Kidney Transplant",
+        "confidence_efficacy": "High",
+        "details": "Required once end-stage renal failure is reached."
+      }
+    ]
+  },
+  {
+    "disease_name": "Multiple Myeloma",
+    "description": "A cancer that forms in a type of white blood cell called a plasma cell (ICD-10: C90.0). Cancerous plasma cells accumulate in the bone marrow and crowd out healthy blood cells.",
+    "symptoms": [
+      {
+        "symptom": "Bone Pain",
+        "confidence_indicator": "High",
+        "details": "Pain in the spine or chest; lytic lesions cause weak bones that break easily."
+      },
+      {
+        "symptom": "Hypercalcemia",
+        "confidence_indicator": "High",
+        "details": "High calcium levels causing thirst, nausea, and confusion."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Serum Protein Electrophoresis (SPEP)",
+        "is_gold_standard": true,
+        "purpose": "Detects the 'M spike' (monoclonal protein) produced by the cancer cells."
+      },
+      {
+        "procedure": "Skeletal Survey (X-ray/MRI)",
+        "is_gold_standard": false,
+        "purpose": "Identifies 'punched-out' lytic lesions in the bones."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Disease Modifying",
+        "treatment": "Proteasome Inhibitors (Bortezomib)",
+        "confidence_efficacy": "High",
+        "details": "Drugs that cause cancer cells to die by preventing them from breaking down proteins."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Bisphosphonates",
+        "confidence_efficacy": "High",
+        "details": "Strengthens bones to prevent fractures."
+      }
+    ]
+  },
+  {
+    "disease_name": "Hodgkin Lymphoma",
+    "description": "A cancer of the lymphatic system (ICD-10: C81). It is distinguished from other lymphomas by the presence of Reed-Sternberg cells.",
+    "symptoms": [
+      {
+        "symptom": "Painless Lymphadenopathy",
+        "confidence_indicator": "High",
+        "details": "Swollen lymph nodes in the neck, armpits, or groin that are not painful."
+      },
+      {
+        "symptom": "B Symptoms",
+        "confidence_indicator": "Medium",
+        "details": "Fever, night sweats, and unexplained weight loss."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Excisional Lymph Node Biopsy",
+        "is_gold_standard": true,
+        "purpose": "Required to see the architecture of the node and identify Reed-Sternberg cells."
+      },
+      {
+        "procedure": "PET Scan",
+        "is_gold_standard": false,
+        "purpose": "Shows metabolic activity to stage the disease (Stage I-IV)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Cure",
+        "treatment": "ABVD Chemotherapy",
+        "confidence_efficacy": "High",
+        "details": "A standard combination regimen (Adriamycin, Bleomycin, Vinblastine, Dacarbazine) with high cure rates."
+      }
+    ]
+  },
+  {
+    "disease_name": "Acute Kidney Injury (AKI)",
+    "description": "A sudden episode of kidney failure or kidney damage that happens within a few hours or a few days (ICD-10: N17.9). Causes include dehydration, blood loss, or toxins.",
+    "symptoms": [
+      {
+        "symptom": "Oliguria",
+        "confidence_indicator": "High",
+        "details": "Decreased urine output."
+      },
+      {
+        "symptom": "Fluid Retention",
+        "confidence_indicator": "Medium",
+        "details": "Swelling in legs/ankles due to inability to excrete water."
+      }
+    ],
+    "diagnostic_procedures": [
+      {
+        "procedure": "Serum Creatinine",
+        "is_gold_standard": true,
+        "purpose": "A rapid rise in creatinine (e.g., >0.3 mg/dL in 48 hours) confirms AKI."
+      },
+      {
+        "procedure": "Urinalysis",
+        "is_gold_standard": false,
+        "purpose": "Checks for muddy brown casts (sign of acute tubular necrosis)."
+      }
+    ],
+    "treatments_and_cures": [
+      {
+        "treatment_type": "Supportive",
+        "treatment": "IV Fluids",
+        "confidence_efficacy": "High",
+        "details": "Restores blood flow to the kidneys in pre-renal causes (dehydration)."
+      },
+      {
+        "treatment_type": "Supportive",
+        "treatment": "Discontinuing Nephrotoxins",
+        "confidence_efficacy": "High",
+        "details": "Stopping drugs like NSAIDs or certain antibiotics to allow kidneys to recover."
+      }
+    ]
+  }
+]

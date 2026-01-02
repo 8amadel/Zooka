@@ -1,0 +1,91 @@
+sources:
+  zooka-spanner:
+    kind: "spanner"
+    project: "PHPI"
+    instance: "PHSI"
+    database: "PHSD"
+tools:
+  find-all-diseases-by-symptom:
+    kind: spanner-sql
+    source: zooka-spanner
+    description: Search for all possible diseases based on one specific symptom 
+                Return the disease name, disease description and the confidence level that this is the correct disease
+    parameters:
+      - name: symptom
+        type: string
+        description: The symptom to search for. 
+    statement: |
+      WITH InputEmbedding AS (
+        SELECT embeddings.values AS vector
+        FROM ML.PREDICT(
+          MODEL TextEmbeddingModel,
+          (SELECT @symptom AS content) 
+        )
+      ),
+      RelevantSymptoms AS (
+        SELECT 
+          ID AS SymptomID, 
+          Name AS SymptomName,
+          Details as SymptomDetails,
+          COSINE_DISTANCE(Embedding, (SELECT vector FROM InputEmbedding)) AS Distance
+        FROM symptom
+        WHERE Embedding IS NOT NULL
+        ORDER BY Distance ASC
+        LIMIT 1
+      )
+      SELECT 
+        g.DiseaseName,
+        g.Confidence,
+        g.Description AS DiseaseDescription
+      FROM RelevantSymptoms rs
+      JOIN GRAPH_TABLE(
+        HeartDiseaseGraph
+        MATCH (s:symptom)-[e:Indicates]->(d:disease)
+        COLUMNS (
+          d.Name AS DiseaseName,
+          d.Description AS Description,
+          e.Confidence AS Confidence,
+          s.ID AS GraphSymptomID
+        )
+      ) AS g ON g.GraphSymptomID = rs.SymptomID;
+
+  search-diagnostic-by-disease:
+    kind: spanner-sql
+    source: zooka-spanner
+    description: Find all diagnostic tests for a specific given disease. Return the diagnostic name, details and whether it's gold standard for this specific disease
+    parameters:
+      - name: disease
+        type: string
+        description: The name of the disease. 
+    statement: |
+      GRAPH HeartDiseaseGraph
+      MATCH (d:disease)-[e:VerifiedBy]->(diag:diagnostic)
+      WHERE d.Name = @disease
+      RETURN 
+      diag.Name AS DiagnosticName,
+      diag.Purpose AS DiagnosticPurpose,
+      e.IsGoldStandard AS IsGoldStandard;
+
+  search-cure-by-disease:
+    kind: spanner-sql
+    source: zooka-spanner
+    description: Find all Treatments for a specific given disease. Retuen the treatment name, details, type and confidence that it would cure the disease
+    parameters:
+      - name: disease
+        type: string
+        description: The name of the disease. 
+    statement: |
+      GRAPH HeartDiseaseGraph
+      MATCH (d:disease)-[e:CuredBy]->(t:treatment)
+      WHERE d.Name = @disease
+      RETURN 
+        t.Name AS TreatmentName,
+        t.details AS TreatmentDetails,
+        e.treatmenttype AS treatmenttype,
+        e.confidence as Confidence
+
+toolsets:
+  my-toolset:
+    - find-all-diseases-by-symptom
+    - search-diagnostic-by-disease
+    - search-cure-by-disease

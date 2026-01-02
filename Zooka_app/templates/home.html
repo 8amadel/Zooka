@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section">
+    <h1>Understanding Your Heart</h1>
+    <p class="subtitle">Your vital engine, explained.</p>
+</div>
+
+<div class="cards-container">
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/heart_anatomy.jpg') }}" alt="Human Heart Anatomy">
+        <h3>Anatomy</h3>
+        <p>The heart pumps blood through the network of arteries and veins called the cardiovascular system.</p>
+    </div>
+    
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/coronary_disease.jpg') }}" alt="Coronary Artery Disease">
+        <h3>Common Diseases</h3>
+        <p>Coronary artery disease, Arrhythmia, and Heart valve disease are among the most common issues.</p>
+    </div>
+    
+    <div class="card">
+        <img src="{{ url_for('static', filename='images/symptoms.jpg') }}" alt="Chest Pain Symptoms">
+        <h3>Symptoms</h3>
+        <p>Watch for chest pain, shortness of breath, and palpitations. Early detection saves lives.</p>
+    </div>
+</div>
+
+<div class="footer-action">
+    <a href="{{ url_for('auth') }}" class="btn-primary">Know More</a>
+</div>
+{% endblock %}
