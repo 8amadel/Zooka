@@ -34,26 +34,31 @@ Treatment Suggestions: Provides standard treatment protocols for confirmed condi
 - Tool Usage: Dynamically invokes Google Search only when necessary (e.g., to verify if a specific test result rules out a disease).
 
 **Installation & Setup**
-- Prerequisites
 Tested and verified to work on Google Cloud Platform (GCP) in region us-central1 using cloud shell to create and deploy the required resources
 
-- Setup
-1. Clone the Repository
+1- Clone the Repository
+
 git clone https://github.com/yourusername/zooka.git
 
 2- Set your environment variables in zooka/config.env
 
-3. Authenticate
+3- Authenticate
+
 gcloud auth application-default login
+
 Accept all actions by always answering with "y", follow the prompt by opening the provided link in a browswer, tick all the checkboxes and copy the code back to the terminal.
 
 4- Run the single deployment command
+
 cd zooka/
+
 nohup ./fullDeploy.sh &
 
 5- Monitor the nohup.out file, you might get some warnings that could be safely ignored. The file should show a similar output when the script's work is done
-Service [your service] revision [your revision] has been deployed and is serving 100 percent of traffic.
-Service URL: [Your URL]
+
+Service [your service] revision [your revision] has been deployed and is serving 100 percent of traffic.
+
+Service URL: [Your URL]
 
 6- Access the web interface at [Your URL]
 
