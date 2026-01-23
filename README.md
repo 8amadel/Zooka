@@ -1,6 +1,6 @@
 **Zooka: AI Cardiologist Assistant**
 Zooka is a stateful, reasoning-capable AI medical agent designed to assist in cardiac health analysis. 
-Built on the Google Agent Development Kit (ADK) and deployed on Vertex AI Reasoning Engine,
+Built using OSS agents framework and containerized severless runtime,
 Zooka simulates a diagnostic workflow to identify potential heart diseases from symptoms,
 recommend diagnostic procedures, verify findings against medical reportsand suggest treatment paths. 
 
@@ -14,8 +14,8 @@ Treatment Suggestions: Provides standard treatment protocols for confirmed condi
 
 **Tech Stack**
 - Agent Framework: Google ADK (Agent Development Kit)
-- Runtime: Google Vertex AI Reasoning Engine
-- Model: Freely select your desired Gemini model
+- Runtime: Serverless containerized runtime
+- Model: Freely select your desired model
 - Frontend: Lightweight Flask + Vanilla HTML/JS (Session-based streaming).
 - MCP: MCP toolbox for databases
 - Database: Cloud Spanner
@@ -28,7 +28,7 @@ Treatment Suggestions: Provides standard treatment protocols for confirmed condi
 
 **Key Features**
 - Stateful Sessions: Maintains context across long medical interviews using the Reasoning Engine's session management.
-- Persistent Long-Term Memory: Leverages Vertex AI to archive user preferences and critical diagnostic history. It intelligently retrieves relevant context across disjointed sessions, ensuring continuity without repetitive questioning.
+- Persistent Long-Term Memory: Archives user preferences and critical diagnostic history. It intelligently retrieves relevant context across disjointed sessions, ensuring continuity without repetitive questioning.
 - Active Reasoning: Does not guess; uses a "Confirm/Refute" logic flow based on diagnostic evidence.
 - Safe Failovers: Strictly enforces medical disclaimers and refers users to real doctors for final validation.
 - Tool Usage: Dynamically invokes Google Search only when necessary (e.g., to verify if a specific test result rules out a disease).
