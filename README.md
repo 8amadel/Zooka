@@ -13,12 +13,12 @@ Report Interpretation: Analyzes user-provided diagnostic results to confirm or r
 Treatment Suggestions: Provides standard treatment protocols for confirmed conditions.
 
 **Tech Stack**
-- Agent Framework: Google ADK (Agent Development Kit)
+- Agent Framework: OSS agents framework
 - Runtime: Serverless containerized runtime
 - Model: Freely select your desired model
 - Frontend: Lightweight Flask + Vanilla HTML/JS (Session-based streaming).
 - MCP: MCP toolbox for databases
-- Database: Cloud Spanner
+- Database: Vector + Graph
 
 **Tools:**
 
