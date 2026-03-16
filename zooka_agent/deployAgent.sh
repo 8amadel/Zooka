@@ -32,7 +32,7 @@ python3 -m pip install google-adk
 python3 -m pip install toolbox-core
 
 echo "setting toolbox URL and Gemini Model in agent definition"
-export TOOLBOX_URL=$(gcloud run services describe toolbox --region us-central1 --format 'value(status.url)')
+export TOOLBOX_URL=$(gcloud run services describe toolbox --region $REGION_ID --format 'value(status.url)')
 sed -i "s|PHTB|$TOOLBOX_URL|g" "$BASE_DIR/zooka/zooka_agent/agent.py"
 sed -i "s|PHGM|$GEMINI_MODEL|g" "$BASE_DIR/zooka/zooka_agent/agent.py"
 
