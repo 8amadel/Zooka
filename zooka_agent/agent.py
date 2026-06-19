@@ -1,6 +1,6 @@
 from google import adk
 from google.adk.agents.llm_agent import Agent
-from toolbox_core import ToolboxSyncClient
+from google.adk.tools.toolbox_toolset import ToolboxToolset
 from google.adk.tools.google_search_tool import GoogleSearchTool
 from google.adk.tools.preload_memory_tool import PreloadMemoryTool
 from functools import cached_property
@@ -53,8 +53,7 @@ show the customer the next top 1-2 diseases based on the symptoms and the degree
 the list of treatments. Find all  treatments of this disease and display them to the user.
 After providing the treatments to the user, ALWAYS remind them that you are not a real doctor and that they should verify the results with an actual doctor"""
 
-toolbox=ToolboxSyncClient("PHTB")
-tools = toolbox.load_toolset("my-toolset")
+toolset = ToolboxToolset("PHTB","my-toolset")
 GEMINI_MODEL="PHGM"
 
 root_agent = Agent(
@@ -62,7 +61,7 @@ root_agent = Agent(
     name='root_agent',
     description='A helpful assistant for user questions.',
     instruction=prompt_root,
-    tools=[*tools,GoogleSearchTool(bypass_multi_tools_limit=True),PreloadMemoryTool()],
+    tools=[toolset,GoogleSearchTool(bypass_multi_tools_limit=True),PreloadMemoryTool()],
 )
 
 from google.adk.apps.app import App
